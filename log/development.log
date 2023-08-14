@@ -5856,3 +5856,2272 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 1049)
 
 
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:49:44 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (27.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (25.8ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:6
+  Rendered campus/index.html.erb within layouts/application (Duration: 31.8ms | Allocations: 1810)
+  Rendered layout layouts/application.html.erb (Duration: 35.6ms | Allocations: 4413)
+Completed 200 OK in 69ms (Views: 12.7ms | ActiveRecord: 25.8ms | Allocations: 9471)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:50:41 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:12
+  Rendered campus/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1229)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2156)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.3ms | Allocations: 3148)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:50:45 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.5ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:12
+  Rendered campus/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1236)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 2164)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.5ms | Allocations: 3137)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:54:00 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.5ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:54
+  Rendered campus/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1295)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 2223)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.5ms | Allocations: 3196)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:54:00 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:54:01 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:54
+  Rendered campus/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 941)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 1597)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.4ms | Allocations: 1909)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:54:01 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:54:02 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.5ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:54
+  Rendered campus/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 813)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 1431)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.5ms | Allocations: 1710)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:54:02 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-14 12:54:02 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 6.4ms | Allocations: 4144)
+  Rendered campus/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 4477)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 5137)
+Completed 200 OK in 24ms (Views: 8.8ms | ActiveRecord: 2.0ms | Allocations: 12425)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:54:04 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:54:53 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:54
+  Rendered campus/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1275)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2202)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.3ms | Allocations: 3162)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:54:53 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:54:54 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:54
+  Rendered campus/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 818)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 1435)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.4ms | Allocations: 1730)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:54:54 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:54:54 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:54
+  Rendered campus/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 801)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 1418)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.3ms | Allocations: 1690)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:54:54 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:55:01 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:54
+  Rendered campus/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1285)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 2212)
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.3ms | Allocations: 3145)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:55:01 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:55:02 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.6ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:54
+  Rendered campus/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 1280)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 2207)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.6ms | Allocations: 3162)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:55:02 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:55:02 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.2ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:54
+  Rendered campus/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 797)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1414)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms | Allocations: 1708)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:55:02 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:55:10 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:54
+  Rendered campus/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 816)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 1433)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms | Allocations: 1709)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:55:10 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:55:29 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:62
+  Rendered campus/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1285)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 2212)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.4ms | Allocations: 3148)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:55:29 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:55:38 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.2ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:62
+  Rendered campus/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 800)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 1417)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms | Allocations: 1712)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:55:39 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:55:39 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1294)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 2221)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.4ms | Allocations: 3112)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:55:39 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:55:40 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 791)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 1408)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.3ms | Allocations: 1702)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:55:40 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:55:40 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 809)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 1426)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.4ms | Allocations: 1698)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:55:40 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:55:40 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 827)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 1444)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.4ms | Allocations: 1716)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:55:40 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-14 12:55:42 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 10.0ms | Allocations: 2705)
+  Rendered campus/new.html.erb within layouts/application (Duration: 11.9ms | Allocations: 2983)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 3600)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 3941)
+
+
+Started POST "/campus" for 127.0.0.1 at 2023-08-14 12:56:38 -0300
+Processing by CampusController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "campu"=>{"description"=>"", "adress"=>"", "number"=>"", "neighbourhood"=>"", "city"=>"", "cep"=>"", "deactivationDate"=>""}, "commit"=>"Create Campu"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mCampu Create (0.5ms)[0m  [1m[32mINSERT INTO `campus` (`description`, `adress`, `number`, `neighbourhood`, `city`, `cep`, `deactivationDate`, `created_at`, `updated_at`) VALUES ('', '', NULL, '', '', NULL, NULL, '2023-08-14 15:56:38.237596', '2023-08-14 15:56:38.237596')[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (26.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+Redirected to http://localhost:3000/campus/3
+Completed 302 Found in 38ms (ActiveRecord: 26.7ms | Allocations: 3920)
+
+
+Started GET "/campus/3" for 127.0.0.1 at 2023-08-14 12:56:38 -0300
+Processing by CampusController#show as TURBO_STREAM
+  Parameters: {"id"=>"3"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.9ms | Allocations: 345)
+  Rendered campus/show.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1670)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 2571)
+Completed 200 OK in 16ms (Views: 9.2ms | ActiveRecord: 0.4ms | Allocations: 5955)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:56:40 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (1.0ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered campus/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1333)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 1952)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 1.0ms | Allocations: 2338)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:56:40 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:56:40 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/_campu.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered campus/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 944)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 1561)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.3ms | Allocations: 1834)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:56:40 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:56:41 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/_campu.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered campus/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 955)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 1572)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.3ms | Allocations: 1844)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:56:41 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus/3" for 127.0.0.1 at 2023-08-14 12:56:42 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered campus/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 562)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1171)
+Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 0.3ms | Allocations: 1962)
+
+
+Started GET "/campus/3" for 127.0.0.1 at 2023-08-14 12:56:42 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered campus/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 598)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1207)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.3ms | Allocations: 1970)
+
+
+Started GET "/campus/3/edit" for 127.0.0.1 at 2023-08-14 12:56:43 -0300
+Processing by CampusController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/edit.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 4.8ms | Allocations: 2804)
+  Rendered campus/edit.html.erb within layouts/application (Duration: 5.8ms | Allocations: 3200)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 3809)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.3ms | Allocations: 4628)
+
+
+Started GET "/campus/3/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:56:43 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/campus/3/photographer.jpg"):
+  
+Started GET "/campus/3/edit" for 127.0.0.1 at 2023-08-14 12:56:43 -0300
+Processing by CampusController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/edit.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 6.2ms | Allocations: 2165)
+  Rendered campus/edit.html.erb within layouts/application (Duration: 6.8ms | Allocations: 2289)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2898)
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.4ms | Allocations: 3668)
+
+
+Started GET "/campus/3/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:56:43 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/campus/3/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:56:45 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.5ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered campus/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 952)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 1569)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.5ms | Allocations: 1843)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:56:45 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus/3" for 127.0.0.1 at 2023-08-14 12:56:51 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered campus/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 601)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1210)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 1975)
+
+
+Started DELETE "/campus/3" for 127.0.0.1 at 2023-08-14 12:56:53 -0300
+Processing by CampusController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"3"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mCampu Destroy (21.0ms)[0m  [1m[31mDELETE FROM `campus` WHERE `campus`.`id` = 3[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mTRANSACTION (36.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+Redirected to http://localhost:3000/campus
+Completed 302 Found in 65ms (ActiveRecord: 58.2ms | Allocations: 2674)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:56:53 -0300
+Processing by CampusController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.2ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 830)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1447)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms | Allocations: 1723)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:56:53 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:58:30 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1294)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 2221)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.3ms | Allocations: 3153)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:58:30 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:58:30 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 786)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 1403)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 1697)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:58:30 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-14 12:58:31 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 8.3ms | Allocations: 2757)
+  Rendered campus/new.html.erb within layouts/application (Duration: 9.6ms | Allocations: 3094)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 3711)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 4051)
+
+
+Started GET "/campus/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:58:31 -0300
+Processing by CampusController#show as JPEG
+  Parameters: {"id"=>"photographer"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = NULL LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.4ms | Allocations: 991)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Campu with 'id'=photographer):
+  
+app/controllers/campus_controller.rb:63:in `set_campu'
+Started POST "/campus" for 127.0.0.1 at 2023-08-14 12:58:35 -0300
+Processing by CampusController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "campu"=>{"description"=>"", "adress"=>"", "number"=>"", "neighbourhood"=>"", "city"=>"", "cep"=>"", "deactivationDate"=>""}, "commit"=>"Create Campu"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mCampu Create (0.4ms)[0m  [1m[32mINSERT INTO `campus` (`description`, `adress`, `number`, `neighbourhood`, `city`, `cep`, `deactivationDate`, `created_at`, `updated_at`) VALUES ('', '', NULL, '', '', NULL, NULL, '2023-08-14 15:58:35.201353', '2023-08-14 15:58:35.201353')[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (56.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+Redirected to http://localhost:3000/campus/4
+Completed 302 Found in 66ms (ActiveRecord: 56.9ms | Allocations: 2490)
+
+
+Started GET "/campus/4" for 127.0.0.1 at 2023-08-14 12:58:35 -0300
+Processing by CampusController#show as TURBO_STREAM
+  Parameters: {"id"=>"4"}
+  [1m[36mCampu Load (0.6ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 1.5ms | Allocations: 335)
+  Rendered campus/show.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1308)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 1917)
+Completed 200 OK in 14ms (Views: 9.7ms | ActiveRecord: 0.6ms | Allocations: 2807)
+
+
+Started GET "/campus/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:58:35 -0300
+Processing by CampusController#show as JPEG
+  Parameters: {"id"=>"photographer"}
+  [1m[36mCampu Load (0.5ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = NULL LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.5ms | Allocations: 943)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Campu with 'id'=photographer):
+  
+app/controllers/campus_controller.rb:63:in `set_campu'
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-14 12:58:39 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 6.3ms | Allocations: 2085)
+  Rendered campus/new.html.erb within layouts/application (Duration: 6.8ms | Allocations: 2172)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 2789)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 3070)
+
+
+Started GET "/campus/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:58:39 -0300
+Processing by CampusController#show as JPEG
+  Parameters: {"id"=>"photographer"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = NULL LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.3ms | Allocations: 943)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Campu with 'id'=photographer):
+  
+app/controllers/campus_controller.rb:63:in `set_campu'
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-14 12:58:53 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 5.1ms | Allocations: 2817)
+  Rendered campus/new.html.erb within layouts/application (Duration: 5.9ms | Allocations: 3197)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 4110)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 5029)
+
+
+Started GET "/campus/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:58:53 -0300
+Processing by CampusController#show as JPEG
+  Parameters: {"id"=>"photographer"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = NULL LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.3ms | Allocations: 1013)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Campu with 'id'=photographer):
+  
+app/controllers/campus_controller.rb:63:in `set_campu'
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:58:56 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/_campu.html.erb (Duration: 1.5ms | Allocations: 276)
+  Rendered campus/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 1614)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 2231)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.4ms | Allocations: 2598)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:58:56 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus/4" for 127.0.0.1 at 2023-08-14 12:58:58 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered campus/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 842)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1451)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.3ms | Allocations: 2294)
+
+
+Started GET "/campus/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:58:58 -0300
+Processing by CampusController#show as JPEG
+  Parameters: {"id"=>"photographer"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = NULL LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.4ms | Allocations: 943)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Campu with 'id'=photographer):
+  
+app/controllers/campus_controller.rb:63:in `set_campu'
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 12:59:39 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered campus/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 950)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 1567)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.4ms | Allocations: 1841)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 12:59:39 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus/4" for 127.0.0.1 at 2023-08-14 13:00:31 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mCampu Load (0.8ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+Started GET "/campus/photographer.jpg" for 127.0.0.1 at 2023-08-14 13:00:31 -0300
+  Rendered campus/_campu.html.erb (Duration: 2.5ms | Allocations: 330)
+  Rendered campus/show.html.erb within layouts/application (Duration: 6.3ms | Allocations: 1522)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 2427)
+Completed 200 OK in 16ms (Views: 12.6ms | ActiveRecord: 0.8ms | Allocations: 4353)
+
+
+Processing by CampusController#show as JPEG
+  Parameters: {"id"=>"photographer"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = NULL LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.3ms | Allocations: 1012)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Campu with 'id'=photographer):
+  
+app/controllers/campus_controller.rb:63:in `set_campu'
+Started GET "/campus/4" for 127.0.0.1 at 2023-08-14 13:00:55 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 1.4ms | Allocations: 282)
+  Rendered campus/show.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1358)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 2259)
+Completed 200 OK in 13ms (Views: 10.0ms | ActiveRecord: 0.3ms | Allocations: 3705)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:00:57 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/_campu.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered campus/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1277)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 1895)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.3ms | Allocations: 2268)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 13:00:57 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus/4" for 127.0.0.1 at 2023-08-14 13:00:58 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mCampu Load (0.5ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered campus/show.html.erb within layouts/application (Duration: 2.3ms | Allocations: 578)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 1187)
+Completed 200 OK in 9ms (Views: 6.4ms | ActiveRecord: 0.5ms | Allocations: 1973)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:00:59 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.6ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/_campu.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered campus/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1037)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 1707)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.6ms | Allocations: 2029)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 13:00:59 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-14 13:01:00 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 9.6ms | Allocations: 2681)
+  Rendered campus/new.html.erb within layouts/application (Duration: 11.6ms | Allocations: 3012)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 3629)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 3966)
+
+
+Started POST "/campus" for 127.0.0.1 at 2023-08-14 13:01:02 -0300
+Processing by CampusController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "campu"=>{"description"=>"", "adress"=>"", "number"=>"", "neighbourhood"=>"", "city"=>"", "cep"=>"", "deactivationDate"=>""}, "commit"=>"Create Campu"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mCampu Create (0.4ms)[0m  [1m[32mINSERT INTO `campus` (`description`, `adress`, `number`, `neighbourhood`, `city`, `cep`, `deactivationDate`, `created_at`, `updated_at`) VALUES ('', '', NULL, '', '', NULL, NULL, '2023-08-14 16:01:02.287746', '2023-08-14 16:01:02.287746')[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (434.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+Redirected to http://localhost:3000/campus/5
+Completed 302 Found in 445ms (ActiveRecord: 435.3ms | Allocations: 2484)
+
+
+Started GET "/campus/5" for 127.0.0.1 at 2023-08-14 13:01:02 -0300
+Processing by CampusController#show as TURBO_STREAM
+  Parameters: {"id"=>"5"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered campus/show.html.erb within layouts/application (Duration: 2.4ms | Allocations: 665)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 1274)
+Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 0.4ms | Allocations: 2085)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:01:03 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.5ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered campus/_campu.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered campus/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1091)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 1708)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.5ms | Allocations: 1981)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 13:01:03 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus/5" for 127.0.0.1 at 2023-08-14 13:01:06 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCampu Load (0.5ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered campus/show.html.erb within layouts/application (Duration: 2.6ms | Allocations: 593)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 1202)
+Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 0.5ms | Allocations: 1968)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:01:13 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.5ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 22)
+  Rendered campus/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1097)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 1793)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.5ms | Allocations: 2113)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 13:01:13 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus/4" for 127.0.0.1 at 2023-08-14 13:01:14 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered campus/show.html.erb within layouts/application (Duration: 2.7ms | Allocations: 575)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 1184)
+Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 0.4ms | Allocations: 1950)
+
+
+Started DELETE "/campus/4" for 127.0.0.1 at 2023-08-14 13:01:15 -0300
+Processing by CampusController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"4"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mCampu Destroy (0.6ms)[0m  [1m[31mDELETE FROM `campus` WHERE `campus`.`id` = 4[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mTRANSACTION (19.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+Redirected to http://localhost:3000/campus
+Completed 302 Found in 26ms (ActiveRecord: 20.0ms | Allocations: 2516)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:01:15 -0300
+Processing by CampusController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/_campu.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered campus/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 957)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1574)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms | Allocations: 1850)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 13:01:15 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus/5" for 127.0.0.1 at 2023-08-14 13:01:16 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered campus/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 575)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1184)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 1949)
+
+
+Started DELETE "/campus/5" for 127.0.0.1 at 2023-08-14 13:01:17 -0300
+Processing by CampusController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"5"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mCampu Destroy (0.4ms)[0m  [1m[31mDELETE FROM `campus` WHERE `campus`.`id` = 5[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mTRANSACTION (18.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+Redirected to http://localhost:3000/campus
+Completed 302 Found in 27ms (ActiveRecord: 19.0ms | Allocations: 2515)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:01:17 -0300
+Processing by CampusController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 847)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 1464)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.4ms | Allocations: 1740)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 13:01:17 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:01:47 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1298)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2225)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.3ms | Allocations: 3158)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 13:01:47 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-14 13:01:49 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 6.5ms | Allocations: 2671)
+  Rendered campus/new.html.erb within layouts/application (Duration: 9.2ms | Allocations: 3003)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 3620)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 3980)
+
+
+Started POST "/campus" for 127.0.0.1 at 2023-08-14 13:01:57 -0300
+Processing by CampusController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "campu"=>{"description"=>"", "adress"=>"", "number"=>"", "neighbourhood"=>"", "city"=>"", "cep"=>"", "deactivationDate"=>""}, "commit"=>"Create Campu"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mCampu Create (0.6ms)[0m  [1m[32mINSERT INTO `campus` (`description`, `adress`, `number`, `neighbourhood`, `city`, `cep`, `deactivationDate`, `created_at`, `updated_at`) VALUES ('', '', NULL, '', '', NULL, NULL, '2023-08-14 16:01:57.277752', '2023-08-14 16:01:57.277752')[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (85.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+Redirected to http://localhost:3000/campus/6
+Completed 302 Found in 95ms (ActiveRecord: 86.4ms | Allocations: 2504)
+
+
+Started GET "/campus/6" for 127.0.0.1 at 2023-08-14 13:01:57 -0300
+Processing by CampusController#show as TURBO_STREAM
+  Parameters: {"id"=>"6"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 1.4ms | Allocations: 274)
+  Rendered campus/show.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1233)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 1842)
+Completed 200 OK in 12ms (Views: 8.4ms | ActiveRecord: 0.4ms | Allocations: 2744)
+
+
+Started GET "/campus/6" for 127.0.0.1 at 2023-08-14 13:04:06 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 1.1ms | Allocations: 282)
+  Rendered campus/show.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1363)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2264)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.3ms | Allocations: 3691)
+
+
+Started GET "/campus/6" for 127.0.0.1 at 2023-08-14 13:04:31 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 1.6ms | Allocations: 282)
+  Rendered campus/show.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1351)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2252)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.3ms | Allocations: 3760)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:04:34 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/_campu.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered campus/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1277)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 1895)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.4ms | Allocations: 2267)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 13:04:34 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus/6" for 127.0.0.1 at 2023-08-14 13:04:35 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mCampu Load (0.6ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.3ms | Allocations: 23)
+  Rendered campus/show.html.erb within layouts/application (Duration: 3.2ms | Allocations: 587)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 1196)
+Completed 200 OK in 12ms (Views: 8.6ms | ActiveRecord: 0.6ms | Allocations: 1983)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:06:55 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered campus/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 964)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 1656)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.3ms | Allocations: 1986)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 13:06:55 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-14 13:06:57 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 8.1ms | Allocations: 2672)
+  Rendered campus/new.html.erb within layouts/application (Duration: 9.8ms | Allocations: 3002)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 3619)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 3957)
+
+
+Started POST "/campus" for 127.0.0.1 at 2023-08-14 13:06:59 -0300
+Processing by CampusController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "campu"=>{"description"=>"", "adress"=>"", "number"=>"", "neighbourhood"=>"", "city"=>"", "cep"=>"", "deactivationDate"=>""}, "commit"=>"Create Campu"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mCampu Create (0.4ms)[0m  [1m[32mINSERT INTO `campus` (`description`, `adress`, `number`, `neighbourhood`, `city`, `cep`, `deactivationDate`, `created_at`, `updated_at`) VALUES ('', '', NULL, '', '', NULL, NULL, '2023-08-14 16:06:59.276517', '2023-08-14 16:06:59.276517')[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (26.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+Redirected to http://localhost:3000/campus/7
+Completed 302 Found in 33ms (ActiveRecord: 26.8ms | Allocations: 2487)
+
+
+Started GET "/campus/7" for 127.0.0.1 at 2023-08-14 13:06:59 -0300
+Processing by CampusController#show as TURBO_STREAM
+  Parameters: {"id"=>"7"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 7 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered campus/show.html.erb within layouts/application (Duration: 2.4ms | Allocations: 647)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 1256)
+Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 0.4ms | Allocations: 2067)
+
+
+Started DELETE "/campus/7" for 127.0.0.1 at 2023-08-14 13:07:01 -0300
+Processing by CampusController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"7"}
+  [1m[36mCampu Load (0.6ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 7 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mCampu Destroy (0.4ms)[0m  [1m[31mDELETE FROM `campus` WHERE `campus`.`id` = 7[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mTRANSACTION (23.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+Redirected to http://localhost:3000/campus
+Completed 302 Found in 33ms (ActiveRecord: 24.2ms | Allocations: 2530)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:07:01 -0300
+Processing by CampusController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered campus/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 959)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 1576)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.3ms | Allocations: 1852)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 13:07:02 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:07:48 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/_campu.html.erb (Duration: 0.8ms | Allocations: 290)
+  Rendered campus/index.html.erb within layouts/application (Duration: 10.3ms | Allocations: 1823)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 2754)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.3ms | Allocations: 3686)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 13:07:49 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus/6" for 127.0.0.1 at 2023-08-14 13:08:06 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered campus/show.html.erb within layouts/application (Duration: 2.4ms | Allocations: 832)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 1441)
+Completed 200 OK in 7ms (Views: 4.3ms | ActiveRecord: 0.4ms | Allocations: 2325)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:08:09 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.2ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/_campu.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered campus/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 941)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1558)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms | Allocations: 1833)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 13:08:09 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus/6" for 127.0.0.1 at 2023-08-14 13:08:10 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mCampu Load (0.6ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered campus/show.html.erb within layouts/application (Duration: 2.5ms | Allocations: 605)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 1214)
+Completed 200 OK in 9ms (Views: 4.9ms | ActiveRecord: 0.6ms | Allocations: 1979)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:08:12 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered campus/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 944)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 1561)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.4ms | Allocations: 1834)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 13:08:12 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus/6" for 127.0.0.1 at 2023-08-14 13:08:14 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.3ms | Allocations: 23)
+  Rendered campus/show.html.erb within layouts/application (Duration: 3.5ms | Allocations: 587)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 1196)
+Completed 200 OK in 10ms (Views: 6.9ms | ActiveRecord: 0.4ms | Allocations: 1963)
+
+
+Started DELETE "/campus/6" for 127.0.0.1 at 2023-08-14 13:08:18 -0300
+Processing by CampusController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"6"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mCampu Destroy (0.3ms)[0m  [1m[31mDELETE FROM `campus` WHERE `campus`.`id` = 6[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mTRANSACTION (61.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+Redirected to http://localhost:3000/campus
+Completed 302 Found in 72ms (ActiveRecord: 62.0ms | Allocations: 2581)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:08:18 -0300
+Processing by CampusController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:59
+  Rendered campus/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 812)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1429)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.3ms | Allocations: 1748)
+
+
+Started GET "/photographer.jpg" for 127.0.0.1 at 2023-08-14 13:08:18 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/photographer.jpg"):
+  
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:08:47 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.2ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:57
+  Rendered campus/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1280)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2207)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.2ms | Allocations: 3140)
+
+
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-14 13:08:49 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 8.3ms | Allocations: 2689)
+  Rendered campus/new.html.erb within layouts/application (Duration: 10.0ms | Allocations: 3025)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 3642)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 4001)
+
+
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-14 13:09:27 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 4.4ms | Allocations: 2802)
+  Rendered campus/new.html.erb within layouts/application (Duration: 6.6ms | Allocations: 3179)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 4091)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 5017)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:09:28 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:57
+  Rendered campus/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1125)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 1742)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms | Allocations: 2114)
+
+
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-14 13:09:29 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 6.0ms | Allocations: 2067)
+  Rendered campus/new.html.erb within layouts/application (Duration: 6.4ms | Allocations: 2154)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 2771)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 3059)
+
+
+Started POST "/campus" for 127.0.0.1 at 2023-08-14 13:09:30 -0300
+Processing by CampusController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "campu"=>{"description"=>"", "adress"=>"", "number"=>"", "neighbourhood"=>"", "city"=>"", "cep"=>"", "deactivationDate"=>""}, "commit"=>"Create Campu"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mCampu Create (0.4ms)[0m  [1m[32mINSERT INTO `campus` (`description`, `adress`, `number`, `neighbourhood`, `city`, `cep`, `deactivationDate`, `created_at`, `updated_at`) VALUES ('', '', NULL, '', '', NULL, NULL, '2023-08-14 16:09:30.217793', '2023-08-14 16:09:30.217793')[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (15.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+Redirected to http://localhost:3000/campus/8
+Completed 302 Found in 24ms (ActiveRecord: 16.2ms | Allocations: 2484)
+
+
+Started GET "/campus/8" for 127.0.0.1 at 2023-08-14 13:09:30 -0300
+Processing by CampusController#show as TURBO_STREAM
+  Parameters: {"id"=>"8"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 8 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.9ms | Allocations: 276)
+  Rendered campus/show.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1251)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 1860)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.3ms | Allocations: 2763)
+
+
+Started GET "/campus/8/edit" for 127.0.0.1 at 2023-08-14 13:09:31 -0300
+Processing by CampusController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mCampu Load (0.5ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 8 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/edit.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 6.7ms | Allocations: 2184)
+  Rendered campus/edit.html.erb within layouts/application (Duration: 8.2ms | Allocations: 2462)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 3071)
+Completed 200 OK in 14ms (Views: 10.5ms | ActiveRecord: 0.5ms | Allocations: 3890)
+
+
+Started GET "/campus/8/edit" for 127.0.0.1 at 2023-08-14 13:10:05 -0300
+Processing by CampusController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 8 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/edit.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 8.0ms | Allocations: 2939)
+  Rendered campus/edit.html.erb within layouts/application (Duration: 9.9ms | Allocations: 3381)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 4282)
+Completed 200 OK in 17ms (Views: 13.7ms | ActiveRecord: 0.3ms | Allocations: 5695)
+
+
+Started GET "/campus/8/edit" for 127.0.0.1 at 2023-08-14 13:10:40 -0300
+Processing by CampusController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 8 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/edit.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 9.5ms | Allocations: 2909)
+  Rendered campus/edit.html.erb within layouts/application (Duration: 12.4ms | Allocations: 3351)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 4252)
+Completed 200 OK in 23ms (Views: 19.6ms | ActiveRecord: 0.3ms | Allocations: 5740)
+
+
+Started GET "/campus/8/edit" for 127.0.0.1 at 2023-08-14 13:10:41 -0300
+Processing by CampusController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 8 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/edit.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 6.7ms | Allocations: 2179)
+  Rendered campus/edit.html.erb within layouts/application (Duration: 7.2ms | Allocations: 2303)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 2912)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.3ms | Allocations: 3749)
+
+
+Started GET "/campus/8/edit" for 127.0.0.1 at 2023-08-14 13:10:43 -0300
+Processing by CampusController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 8 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/edit.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 4.1ms | Allocations: 2176)
+  Rendered campus/edit.html.erb within layouts/application (Duration: 4.6ms | Allocations: 2300)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 2909)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.3ms | Allocations: 3672)
+
+
+Started GET "/campus/8/edit" for 127.0.0.1 at 2023-08-14 13:10:44 -0300
+Processing by CampusController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 8 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/edit.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 3.5ms | Allocations: 2185)
+  Rendered campus/edit.html.erb within layouts/application (Duration: 4.1ms | Allocations: 2309)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2918)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.3ms | Allocations: 3681)
+
+
+Started GET "/campus/8/edit" for 127.0.0.1 at 2023-08-14 13:10:44 -0300
+Processing by CampusController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mCampu Load (0.5ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 8 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/edit.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 3.9ms | Allocations: 2164)
+  Rendered campus/edit.html.erb within layouts/application (Duration: 4.3ms | Allocations: 2288)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2897)
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 0.5ms | Allocations: 3660)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:10:46 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:57
+  Rendered campus/_campu.html.erb (Duration: 0.7ms | Allocations: 276)
+  Rendered campus/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1602)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2219)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.3ms | Allocations: 2571)
+
+
+Started GET "/campus/8" for 127.0.0.1 at 2023-08-14 13:10:47 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 8 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered campus/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 818)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 1427)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.3ms | Allocations: 2269)
+
+
+Started GET "/campus/8/edit" for 127.0.0.1 at 2023-08-14 13:10:48 -0300
+Processing by CampusController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mCampu Load (0.5ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 8 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/edit.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 7.0ms | Allocations: 2173)
+  Rendered campus/edit.html.erb within layouts/application (Duration: 7.6ms | Allocations: 2297)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 2906)
+Completed 200 OK in 14ms (Views: 10.3ms | ActiveRecord: 0.5ms | Allocations: 3671)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:10:50 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.5ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:57
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered campus/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 944)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 1561)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.5ms | Allocations: 1835)
+
+
+Started GET "/campus/8" for 127.0.0.1 at 2023-08-14 13:10:51 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 8 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.3ms | Allocations: 23)
+  Rendered campus/show.html.erb within layouts/application (Duration: 3.4ms | Allocations: 566)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 1175)
+Completed 200 OK in 11ms (Views: 7.2ms | ActiveRecord: 0.4ms | Allocations: 1940)
+
+
+Started DELETE "/campus/8" for 127.0.0.1 at 2023-08-14 13:10:52 -0300
+Processing by CampusController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"8"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 8 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mCampu Destroy (0.2ms)[0m  [1m[31mDELETE FROM `campus` WHERE `campus`.`id` = 8[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mTRANSACTION (35.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+Redirected to http://localhost:3000/campus
+Completed 302 Found in 42ms (ActiveRecord: 36.0ms | Allocations: 2574)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:10:52 -0300
+Processing by CampusController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.2ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:57
+  Rendered campus/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 812)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 1429)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.2ms | Allocations: 1749)
+
+
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-14 13:10:55 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 6.4ms | Allocations: 2095)
+  Rendered campus/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 2371)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2988)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 3326)
+
+
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-14 13:13:04 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 4.8ms | Allocations: 2076)
+  Rendered campus/new.html.erb within layouts/application (Duration: 5.3ms | Allocations: 2163)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 2780)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 3058)
+
+
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-14 13:13:12 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 5.9ms | Allocations: 2872)
+  Rendered campus/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 3249)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 4161)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 5089)
+
+
+Started POST "/campus" for 127.0.0.1 at 2023-08-14 13:13:14 -0300
+Processing by CampusController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "campu"=>{"description"=>"", "adress"=>"", "number"=>"", "neighbourhood"=>"", "city"=>"", "cep"=>"", "deactivationDate"=>""}, "commit"=>"Create Campu"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mCampu Create (0.4ms)[0m  [1m[32mINSERT INTO `campus` (`description`, `adress`, `number`, `neighbourhood`, `city`, `cep`, `deactivationDate`, `created_at`, `updated_at`) VALUES ('', '', NULL, '', '', NULL, NULL, '2023-08-14 16:13:14.155504', '2023-08-14 16:13:14.155504')[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (36.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+Redirected to http://localhost:3000/campus/9
+Completed 302 Found in 57ms (ActiveRecord: 36.8ms | Allocations: 2539)
+
+
+Started GET "/campus/9" for 127.0.0.1 at 2023-08-14 13:13:14 -0300
+Processing by CampusController#show as TURBO_STREAM
+  Parameters: {"id"=>"9"}
+  [1m[36mCampu Load (0.5ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 9 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.8ms | Allocations: 275)
+  Rendered campus/show.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1252)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 1861)
+Completed 200 OK in 9ms (Views: 5.2ms | ActiveRecord: 0.5ms | Allocations: 2783)
+
+
+Started GET "/campus/9/edit" for 127.0.0.1 at 2023-08-14 13:13:16 -0300
+Processing by CampusController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mCampu Load (0.6ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 9 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/edit.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 5.7ms | Allocations: 2202)
+  Rendered campus/edit.html.erb within layouts/application (Duration: 7.1ms | Allocations: 2530)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3139)
+Completed 200 OK in 14ms (Views: 9.2ms | ActiveRecord: 0.6ms | Allocations: 3957)
+
+
+Started GET "/campus/9/edit" for 127.0.0.1 at 2023-08-14 13:14:12 -0300
+Processing by CampusController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 9 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/edit.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 5.4ms | Allocations: 3185)
+  Rendered campus/edit.html.erb within layouts/application (Duration: 7.6ms | Allocations: 3626)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 4527)
+Completed 200 OK in 18ms (Views: 13.1ms | ActiveRecord: 0.4ms | Allocations: 5941)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:14:15 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.8ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:57
+  Rendered campus/_campu.html.erb (Duration: 1.8ms | Allocations: 276)
+  Rendered campus/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 1622)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 2240)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.8ms | Allocations: 2612)
+
+
+Started GET "/campus/9" for 127.0.0.1 at 2023-08-14 13:14:16 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 9 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered campus/show.html.erb within layouts/application (Duration: 3.4ms | Allocations: 821)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 1430)
+Completed 200 OK in 10ms (Views: 6.0ms | ActiveRecord: 0.4ms | Allocations: 2292)
+
+
+Started DELETE "/campus/9" for 127.0.0.1 at 2023-08-14 13:14:18 -0300
+Processing by CampusController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"9"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 9 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mCampu Destroy (0.5ms)[0m  [1m[31mDELETE FROM `campus` WHERE `campus`.`id` = 9[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mTRANSACTION (63.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+Redirected to http://localhost:3000/campus
+Completed 302 Found in 76ms (ActiveRecord: 64.4ms | Allocations: 2577)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:14:18 -0300
+Processing by CampusController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:57
+  Rendered campus/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 803)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 1420)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.4ms | Allocations: 1741)
+
+
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-14 13:14:19 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 5.7ms | Allocations: 2123)
+  Rendered campus/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 2399)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3016)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 3354)
+
+
+Started POST "/campus" for 127.0.0.1 at 2023-08-14 13:14:47 -0300
+Processing by CampusController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "campu"=>{"description"=>"Praia vermelha", "adress"=>"Rua passo da pátria", "number"=>"72", "neighbourhood"=>"Boa viagem", "city"=>"Niterói", "cep"=>"2938123242", "deactivationDate"=>""}, "commit"=>"Create Campu"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1370)
+
+
+  
+ActiveModel::RangeError (2938123242 is out of range for ActiveModel::Type::Integer with limit 4 bytes):
+  
+app/controllers/campus_controller.rb:27:in `block in create'
+app/controllers/campus_controller.rb:26:in `create'
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:14:54 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:57
+  Rendered campus/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 805)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 1422)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.3ms | Allocations: 1696)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:14:54 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:57
+  Rendered campus/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 798)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 1415)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.3ms | Allocations: 1686)
+
+
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-14 13:14:55 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 9.0ms | Allocations: 2125)
+  Rendered campus/new.html.erb within layouts/application (Duration: 9.7ms | Allocations: 2212)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 2829)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 3109)
+
+
+Started POST "/campus" for 127.0.0.1 at 2023-08-14 13:15:11 -0300
+Processing by CampusController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "campu"=>{"description"=>"", "adress"=>"", "number"=>"", "neighbourhood"=>"Boa viage", "city"=>"Niterói", "cep"=>"23124", "deactivationDate"=>""}, "commit"=>"Create Campu"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mCampu Create (0.4ms)[0m  [1m[32mINSERT INTO `campus` (`description`, `adress`, `number`, `neighbourhood`, `city`, `cep`, `deactivationDate`, `created_at`, `updated_at`) VALUES ('', '', NULL, 'Boa viage', 'Niterói', 23124, NULL, '2023-08-14 16:15:11.226541', '2023-08-14 16:15:11.226541')[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (82.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+Redirected to http://localhost:3000/campus/10
+Completed 302 Found in 91ms (ActiveRecord: 83.1ms | Allocations: 2398)
+
+
+Started GET "/campus/10" for 127.0.0.1 at 2023-08-14 13:15:11 -0300
+Processing by CampusController#show as TURBO_STREAM
+  Parameters: {"id"=>"10"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 10 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.1ms | Allocations: 25)
+  Rendered campus/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 645)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1254)
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 0.3ms | Allocations: 2027)
+
+
+Started GET "/campus/10/edit" for 127.0.0.1 at 2023-08-14 13:15:13 -0300
+Processing by CampusController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 10 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/edit.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 8.5ms | Allocations: 2233)
+  Rendered campus/edit.html.erb within layouts/application (Duration: 9.0ms | Allocations: 2357)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 2966)
+Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 0.4ms | Allocations: 3731)
+
+
+Started GET "/campus/10" for 127.0.0.1 at 2023-08-14 13:15:16 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mCampu Load (0.7ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 10 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.3ms | Allocations: 25)
+  Rendered campus/show.html.erb within layouts/application (Duration: 3.7ms | Allocations: 580)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 1189)
+Completed 200 OK in 12ms (Views: 7.9ms | ActiveRecord: 0.7ms | Allocations: 1954)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:15:17 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:57
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 25)
+  Rendered campus/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 958)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 1575)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.4ms | Allocations: 1848)
+
+
+Started GET "/campus/10" for 127.0.0.1 at 2023-08-14 13:15:21 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mCampu Load (0.8ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 10 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 25)
+  Rendered campus/show.html.erb within layouts/application (Duration: 2.6ms | Allocations: 592)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 1201)
+Completed 200 OK in 13ms (Views: 8.1ms | ActiveRecord: 0.8ms | Allocations: 1966)
+
+
+Started DELETE "/campus/10" for 127.0.0.1 at 2023-08-14 13:15:23 -0300
+Processing by CampusController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"10"}
+  [1m[36mCampu Load (0.6ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 10 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mCampu Destroy (0.4ms)[0m  [1m[31mDELETE FROM `campus` WHERE `campus`.`id` = 10[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mTRANSACTION (27.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+Redirected to http://localhost:3000/campus
+Completed 302 Found in 39ms (ActiveRecord: 29.1ms | Allocations: 2501)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:15:23 -0300
+Processing by CampusController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:57
+  Rendered campus/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 825)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 1442)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.4ms | Allocations: 1718)
+
+
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-14 13:15:57 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 5.1ms | Allocations: 2897)
+  Rendered campus/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 3276)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 4188)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 5108)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:15:58 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.6ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:57
+  Rendered campus/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1146)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 1763)
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.6ms | Allocations: 2135)
+
+
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-14 13:16:03 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 7.9ms | Allocations: 2126)
+  Rendered campus/new.html.erb within layouts/application (Duration: 8.3ms | Allocations: 2214)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 2831)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 3117)
+
+
+Started POST "/campus" for 127.0.0.1 at 2023-08-14 13:16:21 -0300
+Processing by CampusController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "campu"=>{"description"=>"", "adress"=>"", "number"=>"", "neighbourhood"=>"", "city"=>"", "cep"=>"24711000", "deactivationDate"=>""}, "commit"=>"Create Campu"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mCampu Create (0.4ms)[0m  [1m[32mINSERT INTO `campus` (`description`, `adress`, `number`, `neighbourhood`, `city`, `cep`, `deactivationDate`, `created_at`, `updated_at`) VALUES ('', '', NULL, '', '', 24711000, NULL, '2023-08-14 16:16:21.765796', '2023-08-14 16:16:21.765796')[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (24.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+Redirected to http://localhost:3000/campus/11
+Completed 302 Found in 35ms (ActiveRecord: 24.6ms | Allocations: 2483)
+
+
+Started GET "/campus/11" for 127.0.0.1 at 2023-08-14 13:16:21 -0300
+Processing by CampusController#show as TURBO_STREAM
+  Parameters: {"id"=>"11"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.8ms | Allocations: 277)
+  Rendered campus/show.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1252)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 1861)
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 0.3ms | Allocations: 2764)
+
+
+Started GET "/campus/11/edit" for 127.0.0.1 at 2023-08-14 13:16:29 -0300
+Processing by CampusController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/edit.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 6.0ms | Allocations: 2217)
+  Rendered campus/edit.html.erb within layouts/application (Duration: 8.1ms | Allocations: 2545)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3154)
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.3ms | Allocations: 3972)
+
+
+Started PATCH "/campus/11" for 127.0.0.1 at 2023-08-14 13:16:33 -0300
+Processing by CampusController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "campu"=>{"description"=>"", "adress"=>"", "number"=>"", "neighbourhood"=>"", "city"=>"", "cep"=>"24711000", "deactivationDate"=>""}, "commit"=>"Update Campu", "id"=>"11"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+Redirected to http://localhost:3000/campus/11
+Completed 302 Found in 7ms (ActiveRecord: 0.4ms | Allocations: 1232)
+
+
+Started GET "/campus/11" for 127.0.0.1 at 2023-08-14 13:16:33 -0300
+Processing by CampusController#show as TURBO_STREAM
+  Parameters: {"id"=>"11"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 25)
+  Rendered campus/show.html.erb within layouts/application (Duration: 2.4ms | Allocations: 607)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 1216)
+Completed 200 OK in 7ms (Views: 4.5ms | ActiveRecord: 0.3ms | Allocations: 1986)
+
+
+Started GET "/campus/11/edit" for 127.0.0.1 at 2023-08-14 13:16:36 -0300
+Processing by CampusController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/edit.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 7.5ms | Allocations: 2230)
+  Rendered campus/edit.html.erb within layouts/application (Duration: 11.6ms | Allocations: 2354)
+  Rendered layout layouts/application.html.erb (Duration: 33.1ms | Allocations: 2963)
+Completed 200 OK in 41ms (Views: 36.5ms | ActiveRecord: 0.3ms | Allocations: 3728)
+
+
+Started PATCH "/campus/11" for 127.0.0.1 at 2023-08-14 13:16:36 -0300
+Processing by CampusController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "campu"=>{"description"=>"", "adress"=>"", "number"=>"", "neighbourhood"=>"", "city"=>"", "cep"=>"24711000", "deactivationDate"=>""}, "commit"=>"Update Campu", "id"=>"11"}
+  [1m[36mCampu Load (0.5ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+Redirected to http://localhost:3000/campus/11
+Completed 302 Found in 6ms (ActiveRecord: 0.5ms | Allocations: 1149)
+
+
+Started GET "/campus/11" for 127.0.0.1 at 2023-08-14 13:16:36 -0300
+Processing by CampusController#show as TURBO_STREAM
+  Parameters: {"id"=>"11"}
+  [1m[36mCampu Load (0.6ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.1ms | Allocations: 25)
+  Rendered campus/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 631)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 1240)
+Completed 200 OK in 8ms (Views: 4.2ms | ActiveRecord: 0.6ms | Allocations: 2010)
+
+
+Started DELETE "/campus/11" for 127.0.0.1 at 2023-08-14 13:16:37 -0300
+Processing by CampusController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"11"}
+  [1m[36mCampu Load (0.5ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mCampu Destroy (0.5ms)[0m  [1m[31mDELETE FROM `campus` WHERE `campus`.`id` = 11[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mTRANSACTION (70.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+Redirected to http://localhost:3000/campus
+Completed 302 Found in 82ms (ActiveRecord: 71.7ms | Allocations: 2540)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:16:37 -0300
+Processing by CampusController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:57
+  Rendered campus/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 813)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 1430)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.3ms | Allocations: 1706)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:16:39 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.5ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:57
+  Rendered campus/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 813)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 1430)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.5ms | Allocations: 1701)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2023-08-14 13:16:46 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+Started GET "/welcome/index" for 127.0.0.1 at 2023-08-14 13:16:52 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 280)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1301)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 2122)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2023-08-14 13:17:29 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 282)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 1455)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 2394)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2023-08-14 13:17:31 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 815)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 1092)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2023-08-14 13:17:31 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 800)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 1059)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2023-08-14 13:17:51 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 280)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 1471)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 2379)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2023-08-14 13:17:59 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 282)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1467)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 2393)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2023-08-14 13:18:06 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 282)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 1470)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 2396)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2023-08-14 13:18:14 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 282)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 1473)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 2399)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2023-08-14 13:18:33 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 842)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 1119)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:18:47 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:57
+  Rendered campus/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1294)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 2221)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.3ms | Allocations: 3167)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:19:05 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:57
+  Rendered campus/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1281)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2208)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.3ms | Allocations: 3170)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:19:28 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:58
+  Rendered campus/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1285)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 2212)
+Completed 200 OK in 13ms (Views: 9.9ms | ActiveRecord: 0.4ms | Allocations: 3174)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:19:59 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:58
+  Rendered campus/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1284)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 2211)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.4ms | Allocations: 3173)
+
+
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-14 13:20:00 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 11.3ms | Allocations: 2757)
+  Rendered campus/new.html.erb within layouts/application (Duration: 13.2ms | Allocations: 3097)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 3714)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 4073)
+
+
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-14 13:20:29 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 10.3ms | Allocations: 2850)
+  Rendered campus/new.html.erb within layouts/application (Duration: 11.9ms | Allocations: 3231)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 4143)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 5069)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:20:31 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:58
+  Rendered campus/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1126)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 1743)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.4ms | Allocations: 2115)
+
+
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-14 13:20:32 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 3.5ms | Allocations: 2126)
+  Rendered campus/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 2214)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2831)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 3117)
+
+
+Started POST "/campus" for 127.0.0.1 at 2023-08-14 13:20:34 -0300
+Processing by CampusController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "campu"=>{"description"=>"", "adress"=>"", "number"=>"", "neighbourhood"=>"", "city"=>"", "cep"=>"", "deactivationDate"=>""}, "commit"=>"Create Campu"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mCampu Create (0.5ms)[0m  [1m[32mINSERT INTO `campus` (`description`, `adress`, `number`, `neighbourhood`, `city`, `cep`, `deactivationDate`, `created_at`, `updated_at`) VALUES ('', '', NULL, '', '', NULL, NULL, '2023-08-14 16:20:34.433624', '2023-08-14 16:20:34.433624')[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (26.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+Redirected to http://localhost:3000/campus/12
+Completed 302 Found in 36ms (ActiveRecord: 26.7ms | Allocations: 2471)
+
+
+Started GET "/campus/12" for 127.0.0.1 at 2023-08-14 13:20:34 -0300
+Processing by CampusController#show as TURBO_STREAM
+  Parameters: {"id"=>"12"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.4ms | Allocations: 275)
+  Rendered campus/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1226)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1835)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.3ms | Allocations: 2738)
+
+
+Started GET "/campus/12/edit" for 127.0.0.1 at 2023-08-14 13:20:35 -0300
+Processing by CampusController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mCampu Load (0.5ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/edit.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 7.7ms | Allocations: 2208)
+  Rendered campus/edit.html.erb within layouts/application (Duration: 9.4ms | Allocations: 2538)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 3147)
+Completed 200 OK in 16ms (Views: 12.1ms | ActiveRecord: 0.5ms | Allocations: 3965)
+
+
+Started GET "/campus/12" for 127.0.0.1 at 2023-08-14 13:20:38 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mCampu Load (0.6ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered campus/show.html.erb within layouts/application (Duration: 3.0ms | Allocations: 584)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 1193)
+Completed 200 OK in 10ms (Views: 6.3ms | ActiveRecord: 0.6ms | Allocations: 1958)
+
+
+Started DELETE "/campus/12" for 127.0.0.1 at 2023-08-14 13:20:39 -0300
+Processing by CampusController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"12"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mCampu Destroy (0.5ms)[0m  [1m[31mDELETE FROM `campus` WHERE `campus`.`id` = 12[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mTRANSACTION (30.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+Redirected to http://localhost:3000/campus
+Completed 302 Found in 42ms (ActiveRecord: 31.8ms | Allocations: 2540)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:20:39 -0300
+Processing by CampusController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:58
+  Rendered campus/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 825)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 1442)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.4ms | Allocations: 1718)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-14 13:20:40 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:58
+  Rendered campus/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 810)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 1427)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.3ms | Allocations: 1698)
+
+
+Started GET "/campus/12" for 127.0.0.1 at 2023-08-14 13:20:44 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mCampu Load (0.2ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms | Allocations: 952)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Campu with 'id'=12):
+  
+app/controllers/campus_controller.rb:63:in `set_campu'
+Started GET "/campus/11" for 127.0.0.1 at 2023-08-14 13:20:50 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.4ms | Allocations: 949)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Campu with 'id'=11):
+  
+app/controllers/campus_controller.rb:63:in `set_campu'
+Started GET "/welcome/index" for 127.0.0.1 at 2023-08-14 13:20:56 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 281)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 1280)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 1920)
+
+
+Started GET "/" for 127.0.0.1 at 2023-08-14 13:20:59 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/3.1.0/gems/railties-7.0.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/3.1.0/gems/railties-7.0.7/lib/rails/templates/rails/welcome/index.html.erb (Duration: 23.1ms | Allocations: 301)
+Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 0.0ms | Allocations: 1164)
+
+
+Started GET "/" for 127.0.0.1 at 2023-08-14 13:22:26 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 284)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2951)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 4004)
+
+
+Started GET "/" for 127.0.0.1 at 2023-08-14 13:22:27 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 800)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 1076)
+
+

@@ -1,14 +1,68 @@
+<style>
+  body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+
+<img src="https://i0.wp.com/www.pebsp.com/wp-content/uploads/2021/12/concurso-professores-UFF.jpg?fit=1280%2C720&ssl=1" class="bg-image">
+
+<div class="bg-text">
+
 <p style="color: green"><%= notice %></p>
 
-<h1>Campus</h1>
+<h1>Gerenciador de campus</h1>
 
 <div id="campus">
   <% @campus.each do |campu| %>
     <%= render campu %>
     <p>
-      <%= link_to "Show this campu", campu %>
+      <%= link_to "Exibir campus", campu %>
     </p>
   <% end %>
 </div>
 
-<%= link_to "New campu", new_campu_path %>
+<%= link_to "Criar novo campus", new_campu_path %>
+
+</div> 
