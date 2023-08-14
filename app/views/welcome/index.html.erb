@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <style>
+        /* Reset de estilos básicos para garantir consistência entre navegadores */
+        body, h1, h2, h3, p, ul, li, a {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        /* Estilos gerais */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 2em 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+
+        .name-header h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.2em;
+        }
+
+        .name-header p {
+            font-size: 1.2em;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 1em 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav ul li a:hover {
+            color: #007bff;
+        }
+
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            max-width: 35vw;
+        }
+
+        section h2 {
+            font-size: 2em;
+            margin-top: 2em;
+            margin-bottom: 0.1em;
+        }
+
+        .service-icon {
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5em 0;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .full-container{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .postcard{
+            height: 100vh;
+        }
+    </style>
+
+    <title>Gerente de Campus - UFF</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="https://lamag.vr.uff.br/wp-content/themes/inst-html/images/brasao.png" alt="Logo UFF" class="logo" id="brasao">
+            <div class="name-header">
+                <h1>Gerente de Campus</h1>
+                <p>Universidade Federal Fluminense</p>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="full-container">
+        <div class="main-container">
+            <section id="sobre">
+                <h2>Banco de dados</h2>
+                <p>Acesse o nosso banco de dados clicando <a href="http://localhost:3000/campus">nestas palavrinhas azuis ;)</a></p>
+            </section>
+            <section id="servicos">
+                <h2>Serviços</h2>
+                <ul>
+                    <li><span class="service-icon">&#127919;</span>Acesso rápido aos dados de cada campus</li>
+                    <li><span class="service-icon">&#128273;</span>Criptografia que garante segurança no acesso do banco de dados</li>
+                    <li><span class="service-icon">&#128295;</span>Manutenção fácil dos servidores</li>
+                </ul>
+            </section>
+            <section id="contato">
+                <h2>Contato</h2>
+                <p>Para reportar erros ou sugerir modificações, entre em contato pelo <a href="https://web.whatsapp.com">nosso Whatsapp</a> ou envie um e-mail para <a href="mailto:campus@uff.br">campus@uff.br</a>.</p>
+            </section>
+        </div>
+        
+        <img src="https://c0.wallpaperflare.com/preview/572/260/960/niteroi.jpg" class="postcard">
+    </div>
+    <footer>
+        <p>&copy; 2023 Gerente de Campus - UFF</p>
+    </footer>
+</body>
+</html>

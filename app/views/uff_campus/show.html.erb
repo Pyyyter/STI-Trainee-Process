@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @uff_campu %>
+
+<div>
+  <%= link_to "Edit this uff campus", edit_uff_campu_path(@uff_campu) %> |
+  <%= link_to "Back to uff campus", uff_campus_index_path %>
+
+  <%= button_to "Destroy this uff campus", @uff_campu, method: :delete %>
+</div>
