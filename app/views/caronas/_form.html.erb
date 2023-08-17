@@ -1,0 +1,58 @@
+<!-- app/views/caronas/_form.html.erb -->
+<%= form_with(model: carona, local: true) do |form| %>
+  <% if carona.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(carona.errors.count, 'erro') %> impediram a carona de ser salva:</h2>
+
+      <ul>
+        <% carona.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :motorista %>
+    <%= form.text_field :motorista %>
+  </div>
+
+  <div class="field">
+    <%= form.label :inicio %>
+    <%= form.text_field :inicio %>
+  </div>
+
+  <div class="field">
+    <%= form.label :fim %>
+    <%= form.text_field :fim %>
+  </div>
+
+  <div class="field">
+    <%= form.label :data %>
+    <%= form.date_field :data %>
+  </div>
+
+  <div class="field">
+    <%= form.label :hora %>
+    <%= form.time_field :hora %>
+  </div>
+
+  <div class="field">
+    <%= form.label :numero_de_passageiros %>
+    <%= form.number_field :numero_de_passageiros %>
+  </div>
+
+  <div class="field">
+    <%= form.label :custo %>
+    <%= form.text_field :custo %>
+  </div>
+
+  <div class="field">
+    <%= form.label :observacao %>
+    <%= form.text_area :observacao %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

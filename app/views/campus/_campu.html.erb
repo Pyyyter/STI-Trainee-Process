@@ -30,7 +30,13 @@
   </p>
 
   <p class="lead">
-    <strong>Data de desativação: </strong>
-    <%= campu.deactivationDate %>
+    <% if campu.deactivationDate %>
+      <strong>O campus foi desativado em: </strong>
+      <%= campu.deactivationDate %>
+    <% else %>
+      <strong>O campus está ativo</strong>
+    <% end %>
   </p>
 </div>
+</div>
+

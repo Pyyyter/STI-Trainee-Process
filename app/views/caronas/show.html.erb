@@ -1,0 +1,18 @@
+<!-- FILEPATH: /home/kalyter/Projects/STI-Trainee-Process (cópia)/app/views/caronas/show.html.erb -->
+
+<h1>Detalhes da Carona</h1>
+
+<p><strong>Motorista:</strong> <%= @carona.motorista %></p>
+<p><strong>Início:</strong> <%= @carona.inicio %></p>
+<p><strong>Fim:</strong> <%= @carona.fim %></p>
+<% if @carona.data %>
+    <p><strong>Data:</strong> <%= @carona.data.strftime("%d/%m/%Y") %></p>
+<% end %>
+<p><strong>Hora:</strong> <%= @carona.hora.strftime("%H:%M") %></p>
+<p><strong>Número de Passageiros:</strong> <%= @carona.numero_de_passageiros %></p>
+<p><strong>Custo:</strong> <%= number_to_currency(@carona.custo) %></p>
+<p><strong>Observação:</strong> <%= @carona.observacao %></p>
+
+<%= link_to 'Editar', edit_carona_path(@carona) %> |
+<%= link_to 'Voltar', caronas_path %>
+<%= link_to 'Voltar', caronas_path %>

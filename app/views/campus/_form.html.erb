@@ -11,42 +11,42 @@
     </div>
   <% end %>
 
-  <div class="form-group">
+  <div class="form-group p-2">
     <%= form.label :nome, class: "text-center", style: "display: block" %>
     <%= form.text_field :description, class: "form-control" %>
   </div>
 
-  <div class="form-group">
+  <div class="form-group p-2">
     <%= form.label :endereço, class: "text-center", style: "display: block" %>
     <%= form.text_field :adress, class: "form-control" %>
   </div>
 
-  <div class="form-group">
+  <div class="form-group p-2">
     <%= form.label :número, class: "text-center", style: "display: block" %>
     <%= form.number_field :number, class: "form-control" %>
   </div>
 
-  <div class="form-group">
+  <div class="form-group p-2">
     <%= form.label :bairro, class: "text-center", style: "display: block" %>
     <%= form.text_field :neighbourhood, class: "form-control" %>
   </div>
 
-  <div class="form-group">
+  <div class="form-group p-2">
     <%= form.label :cidade, class: "text-center", style: "display: block" %>
     <%= form.text_field :city, class: "form-control" %>
   </div>
 
-  <div class="form-group">
+  <div class="form-group p-2">
     <%= form.label :CEP, class: "text-center", style: "display: block" %>
     <%= form.number_field :cep, class: "form-control" %>
   </div>
 
-  <div class="form-group">
+  <div class="form-group p-2">
     <%= form.label :Desativação, class: "text-center", style: "display: block" %>
     <%= form.date_field :deactivationDate, class: "form-control" %>
   </div>
 
-  <div class="form-group text-center">
+  <div class="form-group text-center mt-4">
     <%= form.submit class: "btn btn-success" %>
   </div>
 <% end %>

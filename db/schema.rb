@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_08_10_181456) do
+ActiveRecord::Schema[7.0].define(version: 2023_08_17_025753) do
   create_table "campus", charset: "utf8mb4", collation: "utf8mb4_general_ci", force: :cascade do |t|
     t.string "description"
     t.string "adress"
@@ -21,6 +21,27 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_10_181456) do
     t.date "deactivationDate"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "caronas", charset: "utf8mb4", collation: "utf8mb4_general_ci", force: :cascade do |t|
+    t.string "motorista"
+    t.string "inicio"
+    t.string "fim"
+    t.date "data"
+    t.time "hora"
+    t.integer "numero_de_passageiros"
+    t.decimal "custo", precision: 10
+    t.text "observacao"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "paradas", charset: "utf8mb4", collation: "utf8mb4_general_ci", force: :cascade do |t|
+    t.string "local"
+    t.bigint "carona_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["carona_id"], name: "index_paradas_on_carona_id"
   end
 
   create_table "uff_campus", charset: "utf8mb4", collation: "utf8mb4_general_ci", force: :cascade do |t|
@@ -35,4 +56,5 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_10_181456) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "paradas", "caronas"
 end

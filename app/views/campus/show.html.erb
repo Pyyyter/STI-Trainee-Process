@@ -1,15 +1,16 @@
 <!-- Bootstrap needys -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<%= stylesheet_link_tag "bootstrap.css" %>
 
 <div class="container">
-  <div class="bg-text">
+  <div class="bg-text p-3">
     <p class="text-success"><%= notice %></p>
-      <%= render @campu %>
-      <div class="text-center">
-        <%= link_to "Editar este campus", edit_campu_path(@campu), class: "btn btn-primary mr-2 mt-3" %>
-        <%= link_to "Voltar à lista de campus", campus_path, class: "btn btn-secondary mr-2 mt-3" %>
-        <%= button_to "Destruir este campus", @campu, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger mr-2 mt-3" %>
+      <div class="card p-3">
+        <%= render @campu %>
+        <div class="text-center mt-3">
+          <%= link_to "Editar este campus", edit_campu_path(@campu), class: "btn btn-primary mr-2 mr-3" %>
+          <%= link_to "Voltar à lista de campus", campus_path, class: "btn btn-secondary" %>          
+          <%= button_to "Destruir este campus", @campu, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger mt-3" %>
+        </div>
       </div>
     </div> 
   </div> 

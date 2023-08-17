@@ -1,23 +1,37 @@
 <!-- Bootstrap needys -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+<%= stylesheet_link_tag "bootstrap.css" %>
 <div class="container">
+  <h1 class="text-center mb-5">Campus da UFF</h1>
+
   <div class="row justify-content-center">
-    <div class="col-md-8">
-      <div class="bg-text text-center">
-        <p style="color: green"><%= notice %></p>
-        <h1>Gerenciador de campus</h1>
-        <div id="campus">
-          <% @campus.each do |campu| %>
-            <%= render campu %>
-            <p>
-              <%= link_to "Exibir campus", campu %>
-            </p>
-          <% end %>
-        </div>
-        <%= link_to "Criar novo campus", new_campu_path, class: "btn btn-primary" %>
+    <div class="table-responsive">
+      <div class="row">
+        <% @campus.each do |campu| %>
+          <div class="col-md-4">
+            <div class="card mb-4 bg-secondary text-secondary-emphasys">
+              <div class="card-body">
+                <h5 class="card-title"><%= campu.description %></h5>
+                <p class="card-text"><strong>Endereço:</strong> <%= campu.adress %>, <%= campu.number %>, <%= campu.city %></p>
+                <p class="card-text"><strong>CEP:</strong> <%= campu.cep %></p>
+                <p class="card-text"><strong>Foi desativado? </strong> <%= campu.deactivationDate.nil? ? 'Não' : 'Sim' %></p>
+                <div class="button-group">
+                  <%= link_to 'Mostrar', campu, class: "btn btn-primary mr-2 mt-3" %>
+                  <%= link_to 'Editar', edit_campu_path(campu), class: "btn btn-secondary mr-2 mt-3"%>
+                  <%= button_to 'Excluir', carona_path(campu), method: :delete, data: { confirm: 'Tem certeza?' }, class: "btn btn-danger mr-2 mt-3" %>
+                </div>
+              </div>
+            </div>
+          </div>
+        <% end %>
       </div>
+    </div>
+  </div>
+  </div>
+    </div>
+  </div>
+  <div class="row justify-content-center mt-5">
+    <div class="col-md-4">
+      <%= link_to 'Novo Campus', new_campu_path, class: "btn btn-success btn-block" %>
     </div>
   </div>
 </div>
