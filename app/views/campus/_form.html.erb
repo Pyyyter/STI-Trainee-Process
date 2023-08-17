@@ -1,4 +1,4 @@
-<%= form_with(model: campu) do |form| %>
+<%= form_with(model: campu, class: "d-flex flex-column justify-content-center") do |form| %>
   <% if campu.errors.any? %>
     <div style="color: red">
       <h2><%= pluralize(campu.errors.count, "error") %> prohibited this campu from being saved:</h2>
@@ -11,42 +11,42 @@
     </div>
   <% end %>
 
-  <div>
-    <%= form.label :nome, style: "display: block" %>
-    <%= form.text_field :description %>
+  <div class="form-group">
+    <%= form.label :nome, class: "text-center", style: "display: block" %>
+    <%= form.text_field :description, class: "form-control" %>
   </div>
 
-  <div>
-    <%= form.label :endereço, style: "display: block" %>
-    <%= form.text_field :adress %>
+  <div class="form-group">
+    <%= form.label :endereço, class: "text-center", style: "display: block" %>
+    <%= form.text_field :adress, class: "form-control" %>
   </div>
 
-  <div>
-    <%= form.label :número, style: "display: block" %>
-    <%= form.number_field :number %>
+  <div class="form-group">
+    <%= form.label :número, class: "text-center", style: "display: block" %>
+    <%= form.number_field :number, class: "form-control" %>
   </div>
 
-  <div>
-    <%= form.label :bairro, style: "display: block" %>
-    <%= form.text_field :neighbourhood %>
+  <div class="form-group">
+    <%= form.label :bairro, class: "text-center", style: "display: block" %>
+    <%= form.text_field :neighbourhood, class: "form-control" %>
   </div>
 
-  <div>
-    <%= form.label :cidade, style: "display: block" %>
-    <%= form.text_field :city %>
+  <div class="form-group">
+    <%= form.label :cidade, class: "text-center", style: "display: block" %>
+    <%= form.text_field :city, class: "form-control" %>
   </div>
 
-  <div>
-    <%= form.label :CEP, style: "display: block" %>
-    <%= form.number_field :cep %>
+  <div class="form-group">
+    <%= form.label :CEP, class: "text-center", style: "display: block" %>
+    <%= form.number_field :cep, class: "form-control" %>
   </div>
 
-  <div>
-    <%= form.label :Desativação, style: "display: block" %>
-    <%= form.date_field :deactivationDate %>
+  <div class="form-group">
+    <%= form.label :Desativação, class: "text-center", style: "display: block" %>
+    <%= form.date_field :deactivationDate, class: "form-control" %>
   </div>
 
-  <div>
-    <%= form.submit %>
+  <div class="form-group text-center">
+    <%= form.submit class: "btn btn-success" %>
   </div>
 <% end %>
