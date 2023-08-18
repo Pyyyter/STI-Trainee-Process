@@ -4,9 +4,11 @@ Rails.application.routes.draw do
   resources :campus
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
-  # Defines the root path route ("/")
   root "welcome#index"
 
-  resources :caronas
+  resources :caronas do
+    resources :paradas, only: [:create, :destroy]
+  end
+
 
 end

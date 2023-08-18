@@ -10,11 +10,11 @@
           <div class="col-md-4">
             <div class="card mb-4 bg-secondary text-secondary-emphasys">
               <div class="card-body">
-                <h5 class="card-title"><%= carona.motorista %></h5>
-                <p class="card-text"><strong>Início:</strong> <%= carona.inicio %></p>
-                <p class="card-text"><strong>Fim:</strong> <%= carona.fim %></p>
-                <p class="card-text"><strong>Hora:</strong> <%= carona.hora.strftime("%H:%M") %></p>
-                <p class="card-text"><strong>Custo:</strong> <%= carona.custo %></p>
+                <h5 class="card-title"> <%= carona.motorista == "" ? 'Motorista não alocado' :  'Carona do ' + carona.motorista %></h5>
+                <p class="card-text"><strong>Início:</strong> <%= carona.inicio == "" ? 'Início indisponível' : "#{carona.inicio}" %></p>
+                <p class="card-text"><strong>Fim:</strong> <%= carona.fim == "" ? 'Fim indisponível' : "#{carona.fim}" %></p>
+                <p class="card-text"><strong>Hora:</strong> <%= carona.hora.nil? ? 'Hora indisponível' : "#{carona.hora.strftime("%H:%M")}" %> </p>
+                <p class="card-text"><strong>Custo:</strong> <%= carona.custo.nil? ? 'Gratuita' : "#{carona.custo}" %></p>
                 <div class="button-group">
                   <%= link_to 'Mostrar', carona, class: "btn btn-primary mr-2 mt-3" %>
                   <%= link_to 'Editar', edit_carona_path(carona), class: "btn btn-secondary mr-2 mt-3" %>

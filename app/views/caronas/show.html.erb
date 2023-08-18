@@ -1,18 +1,31 @@
 <!-- FILEPATH: /home/kalyter/Projects/STI-Trainee-Process (cópia)/app/views/caronas/show.html.erb -->
+<%= stylesheet_link_tag "bootstrap.css" %>
 
-<h1>Detalhes da Carona</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header">
+                    <h1>Detalhes da carona</h1>
+                </div>
+                <div class="card-body">
 
-<p><strong>Motorista:</strong> <%= @carona.motorista %></p>
-<p><strong>Início:</strong> <%= @carona.inicio %></p>
-<p><strong>Fim:</strong> <%= @carona.fim %></p>
-<% if @carona.data %>
-    <p><strong>Data:</strong> <%= @carona.data.strftime("%d/%m/%Y") %></p>
-<% end %>
-<p><strong>Hora:</strong> <%= @carona.hora.strftime("%H:%M") %></p>
-<p><strong>Número de Passageiros:</strong> <%= @carona.numero_de_passageiros %></p>
-<p><strong>Custo:</strong> <%= number_to_currency(@carona.custo) %></p>
-<p><strong>Observação:</strong> <%= @carona.observacao %></p>
+                    <h5 class="card-title"> <%= @carona.motorista == "" ? 'Motorista não alocado' :  'Carona do ' + @carona.motorista %></h5>
+                    <p class="card-text"><strong>Início:</strong> <%= @carona.inicio == "" ? 'Início indisponível' : "#{@carona.inicio}" %></p>
+                    <p class="card-text"><strong>Fim:</strong> <%= @carona.fim == "" ? 'Fim indisponível' : "#{@carona.fim}" %></p>
+                    <p class="card-text"><strong>Data :</strong> <%= @carona.data.nil? ? 'Data indisponível' : "#{@carona.data}" %></p>
+                    <p class="card-text"><strong>Hora:</strong> <%= @carona.hora.nil? ? 'Hora indisponível' : "#{@carona.hora.strftime("%H:%M")}" %> </p>
+                    <p class="card-text"><strong>Custo:</strong> <%= @carona.custo.nil? ? 'Gratuita' : "#{@carona.custo}" %></p>
+                    <p class="card-text"><strong>Número de passageiros:</strong> <%= @carona.numero_de_passageiros.nil? ? 'Número de passageiros não definido' : "#{@carona.numero_de_passageiros}" %></p>
+                    <p class="card-text"><strong>Observação:</strong> <%= @carona.observacao == "" ? 'A carona não possui observações' : "#{@carona.observacao}" %></p>
 
-<%= link_to 'Editar', edit_carona_path(@carona) %> |
-<%= link_to 'Voltar', caronas_path %>
-<%= link_to 'Voltar', caronas_path %>
+                </div>
+                <div class="card-footer d-flex justify-content-between mx-auto text-center">
+                    <%= link_to 'Editar', edit_carona_path(@carona), class: 'btn btn-primary' %>
+                    <%= link_to 'Voltar', caronas_path, class: 'btn btn-secondary' %>
+                    <%= button_to 'Excluir', carona_path(@carona), method: :delete, data: { confirm: 'Tem certeza?' }, class: "btn btn-secondary" %>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

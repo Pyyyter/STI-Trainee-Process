@@ -6,6 +6,7 @@ class CaronasController < ApplicationController
     end
   
     def show
+      @paradas = @carona.paradas
     end
   
     def new

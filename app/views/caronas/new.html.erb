@@ -1,6 +1,10 @@
 <!-- app/views/caronas/new.html.erb -->
-<h1>Nova Carona</h1>
+<%= stylesheet_link_tag "bootstrap.css" %>
 
-<%= render 'form', carona: @carona %>
-
-<%= link_to 'Voltar para Listagem', caronas_path %>
+<div class="container">
+    <h1>Nova Carona</h1>
+    <%= render "form", carona:@carona %>
+    <div class="text-center">
+        <%= link_to 'Voltar para Listagem', caronas_path, class: "btn btn-secondary" %>
+    </div>
+</div>

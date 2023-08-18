@@ -1,58 +1,66 @@
-<!-- app/views/caronas/_form.html.erb -->
-<%= form_with(model: carona, local: true) do |form| %>
+<%= form_with(model: carona, class: "d-flex flex-column justify-content-center") do |form| %>
   <% if carona.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(carona.errors.count, 'erro') %> impediram a carona de ser salva:</h2>
+    <div style="color: red">
+      <h2><%= pluralize(carona.errors.count, "error") %> prohibited this campu from being saved:</h2>
 
       <ul>
-        <% carona.errors.full_messages.each do |message| %>
-          <li><%= message %></li>
+        <% carona.errors.each do |error| %>
+          <li><%= error.full_message %></li>
         <% end %>
       </ul>
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :motorista %>
-    <%= form.text_field :motorista %>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group p-2">
+        <%= form.label :motorista, class: "text-center", style: "display: block" %>
+        <%= form.text_field :motorista, class: "form-control" %>
+      </div>
+
+      <div class="form-group p-2">
+        <%= form.label :data, class: "text-center", style: "display: block" %>
+        <%= form.date_field :data, class: "form-control", value: Time.now.strftime('%Y-%m-%d') %>
+      </div>
+
+      <div class="form-group p-2">
+        <%= form.label :hora, class: "text-center", style: "display: block" %>
+        <%= form.time_field :hora, class: "form-control", value: Time.now.strftime('%H:%M') %>
+      </div>
+
+      <div class="form-group p-2">
+        <%= form.label :Passageiros, class: "text-center", style: "display: block" %>
+        <%= form.text_field :numero_de_passageiros, class: "form-control" %>
+      </div>
+      
+
+    </div>
+
+    <div class="col-md-6">
+      <div class="form-group p-2">
+        <%= form.label :inicio, class: "text-center", style: "display: block" %>
+        <%= form.text_field :inicio, class: "form-control"%>
+      </div>
+
+      <div class="form-group p-2">
+        <%= form.label :fim, class: "text-center", style: "display: block" %>
+        <%= form.text_field :fim, class: "form-control" %>
+      </div>
+      <div class="form-group p-2">
+        <%= form.label :Valor, class: "text-center", style: "display: block" %>
+        <%= form.text_field :custo, class: "form-control" %>
+      </div>
+
+      <div class="form-group p-2">
+        <%= form.label :observacao, class: "text-center" %>
+        <div class="">
+          <%= form.text_area :observacao, class: "form-control" %>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="field">
-    <%= form.label :inicio %>
-    <%= form.text_field :inicio %>
-  </div>
-
-  <div class="field">
-    <%= form.label :fim %>
-    <%= form.text_field :fim %>
-  </div>
-
-  <div class="field">
-    <%= form.label :data %>
-    <%= form.date_field :data %>
-  </div>
-
-  <div class="field">
-    <%= form.label :hora %>
-    <%= form.time_field :hora %>
-  </div>
-
-  <div class="field">
-    <%= form.label :numero_de_passageiros %>
-    <%= form.number_field :numero_de_passageiros %>
-  </div>
-
-  <div class="field">
-    <%= form.label :custo %>
-    <%= form.text_field :custo %>
-  </div>
-
-  <div class="field">
-    <%= form.label :observacao %>
-    <%= form.text_area :observacao %>
-  </div>
-
-  <div class="actions">
-    <%= form.submit %>
+  <div class="form-group p-2 d-flex justify-content-center m-5">
+    <%= form.submit "Adicionar carona", class: "btn btn-primary" %>
   </div>
 <% end %>
