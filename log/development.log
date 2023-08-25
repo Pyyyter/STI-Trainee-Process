@@ -38894,3 +38894,2491 @@ Processing by CaronasController#edit as HTML
 Completed 200 OK in 22ms (Views: 18.2ms | ActiveRecord: 1.1ms | Allocations: 6324)
 
 
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:15:48 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (36.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.6ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 161.7ms | Allocations: 5262)
+  [1m[36mParada Exists? (11.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 835.1ms | Allocations: 40685)
+  Rendered layout layouts/application.html.erb (Duration: 859.2ms | Allocations: 43111)
+Completed 200 OK in 1123ms (Views: 828.5ms | ActiveRecord: 59.9ms | Allocations: 58751)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:16:20 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 7.9ms | Allocations: 3343)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 16.2ms | Allocations: 6650)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 7469)
+Completed 200 OK in 25ms (Views: 21.0ms | ActiveRecord: 0.9ms | Allocations: 8991)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:43:52 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.1ms | Allocations: 2511)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 7.4ms | Allocations: 4889)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 5479)
+Completed 200 OK in 12ms (Views: 8.3ms | ActiveRecord: 1.0ms | Allocations: 6441)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:43:52 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.2ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.4ms | Allocations: 2513)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 10.0ms | Allocations: 4890)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 5479)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.6ms | Allocations: 6244)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:43:52 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.2ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.8ms | Allocations: 2534)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 11.5ms | Allocations: 4911)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 5500)
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.6ms | Allocations: 6265)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:46:06 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.6ms | Allocations: 3356)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 11.8ms | Allocations: 6657)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 7477)
+Completed 200 OK in 17ms (Views: 14.4ms | ActiveRecord: 0.6ms | Allocations: 8905)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:46:06 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 7.3ms | Allocations: 2520)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 14.8ms | Allocations: 4898)
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 5488)
+Completed 200 OK in 20ms (Views: 16.6ms | ActiveRecord: 0.9ms | Allocations: 6302)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:46:07 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.3ms | Allocations: 2519)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 22.6ms | Allocations: 4897)
+  Rendered layout layouts/application.html.erb (Duration: 23.5ms | Allocations: 5486)
+Completed 200 OK in 26ms (Views: 23.9ms | ActiveRecord: 0.7ms | Allocations: 6252)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:46:07 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 7.2ms | Allocations: 2507)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 16.7ms | Allocations: 4890)
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 5479)
+Completed 200 OK in 24ms (Views: 19.9ms | ActiveRecord: 0.8ms | Allocations: 6244)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:46:07 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 8.1ms | Allocations: 2513)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 19.4ms | Allocations: 4895)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 5484)
+Completed 200 OK in 26ms (Views: 22.2ms | ActiveRecord: 0.8ms | Allocations: 6249)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:46:07 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 6.5ms | Allocations: 2507)
+  [1m[36mParada Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 14.9ms | Allocations: 4884)
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 5473)
+Completed 200 OK in 21ms (Views: 16.9ms | ActiveRecord: 1.0ms | Allocations: 6238)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:46:07 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 2.8ms | Allocations: 2507)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 7.0ms | Allocations: 4884)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 5473)
+Completed 200 OK in 11ms (Views: 8.3ms | ActiveRecord: 0.6ms | Allocations: 6238)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:46:08 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.2ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.1ms | Allocations: 2508)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 9.5ms | Allocations: 4885)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 5474)
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.6ms | Allocations: 6239)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:48:13 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.5ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 8.3ms | Allocations: 3337)
+  [1m[36mParada Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 15.1ms | Allocations: 6641)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 7460)
+Completed 200 OK in 21ms (Views: 17.8ms | ActiveRecord: 1.1ms | Allocations: 8875)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:48:13 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 6.7ms | Allocations: 2489)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 14.1ms | Allocations: 4866)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 5455)
+Completed 200 OK in 20ms (Views: 16.6ms | ActiveRecord: 0.8ms | Allocations: 6254)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:48:14 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.2ms | Allocations: 2501)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 7.8ms | Allocations: 4878)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 5467)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.6ms | Allocations: 6232)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:48:14 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.7ms | Allocations: 2516)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 13.7ms | Allocations: 4893)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 5482)
+Completed 200 OK in 19ms (Views: 15.7ms | ActiveRecord: 0.8ms | Allocations: 6247)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:48:14 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.5ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.9ms | Allocations: 2513)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 9.0ms | Allocations: 4890)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 5479)
+Completed 200 OK in 14ms (Views: 10.7ms | ActiveRecord: 0.8ms | Allocations: 6244)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:48:14 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.6ms | Allocations: 2516)
+  [1m[36mParada Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 9.1ms | Allocations: 4893)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 5482)
+Completed 200 OK in 13ms (Views: 10.1ms | ActiveRecord: 0.9ms | Allocations: 6247)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:48:14 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.2ms | Allocations: 2489)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 8.5ms | Allocations: 4866)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 5455)
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.6ms | Allocations: 6220)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:48:15 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.2ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.1ms | Allocations: 2492)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 7.8ms | Allocations: 4869)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 5458)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.6ms | Allocations: 6223)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:48:15 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 17.0ms | Allocations: 2505)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 25.8ms | Allocations: 4884)
+  Rendered layout layouts/application.html.erb (Duration: 28.3ms | Allocations: 5474)
+Completed 200 OK in 31ms (Views: 28.6ms | ActiveRecord: 0.8ms | Allocations: 6255)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:48:15 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.3ms | Allocations: 2498)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 9.1ms | Allocations: 4881)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 5470)
+Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 0.6ms | Allocations: 6235)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:48:15 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.6ms | Allocations: 2510)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 8.8ms | Allocations: 4892)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 5481)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.8ms | Allocations: 6246)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:48:15 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.9ms | Allocations: 2507)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 9.8ms | Allocations: 4884)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 5476)
+Completed 200 OK in 14ms (Views: 10.6ms | ActiveRecord: 0.7ms | Allocations: 6241)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:48:16 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.7ms | Allocations: 2501)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 9.9ms | Allocations: 4878)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 5467)
+Completed 200 OK in 14ms (Views: 10.8ms | ActiveRecord: 0.8ms | Allocations: 6232)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 13:48:16 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.6ms | Allocations: 2508)
+  [1m[36mParada Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 8.9ms | Allocations: 4885)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 5474)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 1.1ms | Allocations: 6239)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 23:13:08 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.7ms | Allocations: 2507)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 12.8ms | Allocations: 4884)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 5473)
+Completed 200 OK in 19ms (Views: 14.7ms | ActiveRecord: 1.3ms | Allocations: 6383)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 23:13:09 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.1ms | Allocations: 2498)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 7.8ms | Allocations: 4875)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 5464)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.6ms | Allocations: 6229)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 23:13:09 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.2ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 2.9ms | Allocations: 2489)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 7.2ms | Allocations: 4866)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 5455)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.6ms | Allocations: 6220)
+
+
+Started GET "/caronas/5/edit" for ::1 at 2023-08-18 23:13:10 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.2ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 2.7ms | Allocations: 2504)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 6.5ms | Allocations: 4881)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 5470)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.5ms | Allocations: 6235)
+
+
+Started GET "/caronas" for ::1 at 2023-08-18 23:13:34 -0300
+Processing by CaronasController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/index.html.erb within layouts/application
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas`[0m
+  ↳ app/views/caronas/index.html.erb:9
+  Rendered caronas/index.html.erb within layouts/application (Duration: 32.8ms | Allocations: 3103)
+  Rendered layout layouts/application.html.erb (Duration: 33.6ms | Allocations: 3692)
+Completed 200 OK in 35ms (Views: 33.7ms | ActiveRecord: 0.3ms | Allocations: 4023)
+
+
+Started GET "/caronas/new" for ::1 at 2023-08-18 23:13:36 -0300
+Processing by CaronasController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/new.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 2.6ms | Allocations: 2411)
+  Rendered caronas/new.html.erb within layouts/application (Duration: 23.1ms | Allocations: 3683)
+  Rendered layout layouts/application.html.erb (Duration: 23.8ms | Allocations: 4272)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms | Allocations: 4619)
+
+
+Started POST "/caronas" for ::1 at 2023-08-18 23:13:38 -0300
+Processing by CaronasController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "carona"=>{"motorista"=>"", "data"=>"2023-08-18", "hora"=>"23:13", "numero_de_passageiros"=>"", "inicio"=>"", "fim"=>"", "custo"=>"", "observacao"=>""}, "commit"=>"Adicionar carona"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/caronas_controller.rb:18:in `create'
+  [1m[36mCarona Create (0.5ms)[0m  [1m[32mINSERT INTO `caronas` (`motorista`, `inicio`, `fim`, `data`, `hora`, `numero_de_passageiros`, `custo`, `observacao`, `created_at`, `updated_at`) VALUES ('', '', '', '2023-08-18', '23:13:00', NULL, NULL, '', '2023-08-19 02:13:38.305883', '2023-08-19 02:13:38.305883')[0m
+  ↳ app/controllers/caronas_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (191.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/caronas_controller.rb:18:in `create'
+Redirected to http://localhost:3000/caronas/11
+Completed 302 Found in 205ms (ActiveRecord: 192.1ms | Allocations: 4142)
+
+
+Started GET "/caronas/11" for ::1 at 2023-08-18 23:13:38 -0300
+Processing by CaronasController#show as TURBO_STREAM
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/show.html.erb within layouts/application
+  Rendered caronas/show.html.erb within layouts/application (Duration: 22.1ms | Allocations: 2091)
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 2688)
+Completed 200 OK in 26ms (Views: 23.5ms | ActiveRecord: 0.3ms | Allocations: 3669)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:13:39 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.4ms | Allocations: 2576)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 11.1ms | Allocations: 5049)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 5638)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.7ms | Allocations: 6405)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:14:00 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.0ms | Allocations: 3330)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 10.6ms | Allocations: 6628)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 7447)
+Completed 200 OK in 17ms (Views: 14.4ms | ActiveRecord: 0.7ms | Allocations: 8861)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:14:04 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.8ms | Allocations: 2516)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 9.0ms | Allocations: 4893)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 5482)
+Completed 200 OK in 13ms (Views: 10.0ms | ActiveRecord: 0.7ms | Allocations: 6281)
+
+
+Started POST "/caronas/11/paradas" for ::1 at 2023-08-18 23:14:24 -0300
+Processing by ParadasController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "parada"=>{"local"=>"adsdq2w3wq"}, "commit"=>"Adicionar Parada", "carona_id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/paradas_controller.rb:19:in `set_carona'
+  [1m[36mCACHE Carona Load (0.0ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/paradas_controller.rb:5:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/paradas_controller.rb:6:in `create'
+  [1m[36mParada Create (0.3ms)[0m  [1m[32mINSERT INTO `paradas` (`local`, `carona_id`, `created_at`, `updated_at`) VALUES ('adsdq2w3wq', 11, '2023-08-19 02:14:24.609492', '2023-08-19 02:14:24.609492')[0m
+  ↳ app/controllers/paradas_controller.rb:6:in `create'
+  [1m[36mTRANSACTION (56.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/paradas_controller.rb:6:in `create'
+Redirected to http://localhost:3000/caronas/11/edit
+Completed 302 Found in 157ms (ActiveRecord: 57.3ms | Allocations: 5016)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:14:24 -0300
+Processing by CaronasController#edit as TURBO_STREAM
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.5ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.0ms | Allocations: 2625)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 13.8ms | Allocations: 7055)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 7653)
+Completed 200 OK in 18ms (Views: 15.1ms | ActiveRecord: 1.2ms | Allocations: 8538)
+
+
+Started POST "/caronas/11/paradas" for ::1 at 2023-08-18 23:14:26 -0300
+Processing by ParadasController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "parada"=>{"local"=>"adsdq2w3wq"}, "commit"=>"Adicionar Parada", "carona_id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/paradas_controller.rb:19:in `set_carona'
+  [1m[36mCACHE Carona Load (0.0ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/paradas_controller.rb:5:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/paradas_controller.rb:6:in `create'
+  [1m[36mParada Create (0.5ms)[0m  [1m[32mINSERT INTO `paradas` (`local`, `carona_id`, `created_at`, `updated_at`) VALUES ('adsdq2w3wq', 11, '2023-08-19 02:14:26.299152', '2023-08-19 02:14:26.299152')[0m
+  ↳ app/controllers/paradas_controller.rb:6:in `create'
+  [1m[36mTRANSACTION (153.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/paradas_controller.rb:6:in `create'
+Redirected to http://localhost:3000/caronas/11/edit
+Completed 302 Found in 165ms (ActiveRecord: 154.2ms | Allocations: 3526)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:14:26 -0300
+Processing by CaronasController#edit as TURBO_STREAM
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.1ms | Allocations: 2489)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.4ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 11.1ms | Allocations: 6083)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 6672)
+Completed 200 OK in 15ms (Views: 12.4ms | ActiveRecord: 1.0ms | Allocations: 7443)
+
+
+Started POST "/caronas/11/paradas" for ::1 at 2023-08-18 23:14:29 -0300
+Processing by ParadasController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "parada"=>{"local"=>"qwe12"}, "commit"=>"Adicionar Parada", "carona_id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/paradas_controller.rb:19:in `set_carona'
+  [1m[36mCACHE Carona Load (0.0ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/paradas_controller.rb:5:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/paradas_controller.rb:6:in `create'
+  [1m[36mParada Create (0.3ms)[0m  [1m[32mINSERT INTO `paradas` (`local`, `carona_id`, `created_at`, `updated_at`) VALUES ('qwe12', 11, '2023-08-19 02:14:29.073759', '2023-08-19 02:14:29.073759')[0m
+  ↳ app/controllers/paradas_controller.rb:6:in `create'
+  [1m[36mTRANSACTION (46.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/paradas_controller.rb:6:in `create'
+Redirected to http://localhost:3000/caronas/11/edit
+Completed 302 Found in 55ms (ActiveRecord: 47.6ms | Allocations: 3465)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:14:29 -0300
+Processing by CaronasController#edit as TURBO_STREAM
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.0ms | Allocations: 2471)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.2ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 9.6ms | Allocations: 6374)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 6963)
+Completed 200 OK in 13ms (Views: 10.5ms | ActiveRecord: 0.9ms | Allocations: 7733)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:14:50 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 7.3ms | Allocations: 2474)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 26.6ms | Allocations: 6374)
+  Rendered layout layouts/application.html.erb (Duration: 27.9ms | Allocations: 6963)
+Completed 200 OK in 30ms (Views: 27.6ms | ActiveRecord: 1.1ms | Allocations: 7729)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:14:50 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 7.8ms | Allocations: 3344)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 20.9ms | Allocations: 8196)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 9014)
+Completed 200 OK in 29ms (Views: 25.0ms | ActiveRecord: 1.0ms | Allocations: 10449)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:14:51 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.1ms | Allocations: 2498)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 16.3ms | Allocations: 6402)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 6991)
+Completed 200 OK in 21ms (Views: 17.9ms | ActiveRecord: 1.2ms | Allocations: 7785)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:14:51 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.2ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.0ms | Allocations: 2489)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 14.9ms | Allocations: 6393)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 6982)
+Completed 200 OK in 18ms (Views: 15.2ms | ActiveRecord: 1.2ms | Allocations: 7747)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:14:54 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.0ms | Allocations: 2487)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.4ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 13.1ms | Allocations: 6387)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 6976)
+Completed 200 OK in 19ms (Views: 16.3ms | ActiveRecord: 1.1ms | Allocations: 7741)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:14:54 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 7.2ms | Allocations: 3319)
+  [1m[36mParada Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.4ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 22.2ms | Allocations: 8161)
+  Rendered layout layouts/application.html.erb (Duration: 24.7ms | Allocations: 8979)
+Completed 200 OK in 30ms (Views: 25.7ms | ActiveRecord: 1.5ms | Allocations: 10393)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:14:54 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.4ms | Allocations: 2477)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 17.0ms | Allocations: 6377)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 6966)
+Completed 200 OK in 22ms (Views: 19.7ms | ActiveRecord: 1.2ms | Allocations: 7760)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:14:55 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.0ms | Allocations: 2501)
+  [1m[36mParada Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.7ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 17.8ms | Allocations: 6401)
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 6990)
+Completed 200 OK in 22ms (Views: 18.1ms | ActiveRecord: 1.7ms | Allocations: 7755)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:14:55 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.4ms | Allocations: 2498)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.7ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 17.6ms | Allocations: 6398)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 6987)
+Completed 200 OK in 23ms (Views: 18.2ms | ActiveRecord: 1.6ms | Allocations: 7752)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:27:05 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.2ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.9ms | Allocations: 3328)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 15.3ms | Allocations: 8175)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 8993)
+Completed 200 OK in 22ms (Views: 17.9ms | ActiveRecord: 1.4ms | Allocations: 10549)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:27:05 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.2ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.6ms | Allocations: 2498)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 18.7ms | Allocations: 6398)
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 6987)
+Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 1.2ms | Allocations: 7782)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:27:05 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.9ms | Allocations: 2513)
+  [1m[36mParada Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.6ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 15.5ms | Allocations: 6418)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 7007)
+Completed 200 OK in 20ms (Views: 17.1ms | ActiveRecord: 1.5ms | Allocations: 7772)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:27:06 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.4ms | Allocations: 2474)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.4ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 13.1ms | Allocations: 6379)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 6968)
+Completed 200 OK in 17ms (Views: 14.2ms | ActiveRecord: 1.1ms | Allocations: 7733)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:28:24 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.5ms | Allocations: 3316)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 17.8ms | Allocations: 8169)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 8987)
+Completed 200 OK in 24ms (Views: 20.4ms | ActiveRecord: 1.1ms | Allocations: 10401)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:28:25 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 6.2ms | Allocations: 2505)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 17.5ms | Allocations: 6405)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 6994)
+Completed 200 OK in 21ms (Views: 18.1ms | ActiveRecord: 1.2ms | Allocations: 7788)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:28:25 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.5ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.6ms | Allocations: 2510)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.4ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 14.4ms | Allocations: 6410)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 6999)
+Completed 200 OK in 19ms (Views: 15.8ms | ActiveRecord: 1.3ms | Allocations: 7764)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:28:25 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.6ms | Allocations: 2486)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.6ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 14.9ms | Allocations: 6386)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 6975)
+Completed 200 OK in 19ms (Views: 15.9ms | ActiveRecord: 1.4ms | Allocations: 7740)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:28:25 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.8ms | Allocations: 2489)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.7ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 16.8ms | Allocations: 6389)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 6978)
+Completed 200 OK in 22ms (Views: 18.3ms | ActiveRecord: 1.5ms | Allocations: 7743)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:28:27 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.2ms | Allocations: 3307)
+  [1m[36mParada Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 17.3ms | Allocations: 8148)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 8966)
+Completed 200 OK in 23ms (Views: 20.3ms | ActiveRecord: 1.3ms | Allocations: 10380)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:28:28 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.7ms | Allocations: 2477)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 13.6ms | Allocations: 6377)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 6966)
+Completed 200 OK in 20ms (Views: 16.6ms | ActiveRecord: 0.9ms | Allocations: 7760)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:28:28 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.5ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.6ms | Allocations: 2480)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.4ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 23.0ms | Allocations: 6380)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 6969)
+Completed 200 OK in 28ms (Views: 23.7ms | ActiveRecord: 1.4ms | Allocations: 7735)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:28:28 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 7.5ms | Allocations: 2504)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.4ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 15.8ms | Allocations: 6409)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 6998)
+Completed 200 OK in 19ms (Views: 16.6ms | ActiveRecord: 1.0ms | Allocations: 7764)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:28:28 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.6ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 7.1ms | Allocations: 2484)
+  [1m[36mParada Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 18.4ms | Allocations: 6387)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 6976)
+Completed 200 OK in 24ms (Views: 19.1ms | ActiveRecord: 1.8ms | Allocations: 7741)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:28:28 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.5ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.3ms | Allocations: 2477)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 16.6ms | Allocations: 6382)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 6971)
+Completed 200 OK in 21ms (Views: 17.4ms | ActiveRecord: 1.3ms | Allocations: 7736)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:28:42 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 7.5ms | Allocations: 3316)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 20.6ms | Allocations: 8170)
+  Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 8988)
+Completed 200 OK in 27ms (Views: 23.6ms | ActiveRecord: 1.2ms | Allocations: 10402)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:28:43 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.7ms | Allocations: 2486)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.4ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 15.2ms | Allocations: 6386)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 6975)
+Completed 200 OK in 19ms (Views: 15.9ms | ActiveRecord: 1.2ms | Allocations: 7769)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:28:43 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.6ms | Allocations: 2492)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 10.4ms | Allocations: 6392)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 6981)
+Completed 200 OK in 14ms (Views: 11.8ms | ActiveRecord: 0.9ms | Allocations: 7746)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:28:43 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.0ms | Allocations: 2498)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 16.3ms | Allocations: 6398)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 6987)
+Completed 200 OK in 24ms (Views: 20.8ms | ActiveRecord: 1.2ms | Allocations: 7752)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:29:05 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.5ms | Allocations: 3319)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.6ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 18.4ms | Allocations: 8163)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 8981)
+Completed 200 OK in 25ms (Views: 20.6ms | ActiveRecord: 1.4ms | Allocations: 10395)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:29:06 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.2ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.7ms | Allocations: 3325)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 16.2ms | Allocations: 8168)
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 8986)
+Completed 200 OK in 23ms (Views: 20.3ms | ActiveRecord: 0.9ms | Allocations: 10426)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:29:06 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 12.4ms | Allocations: 2493)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 23.4ms | Allocations: 6393)
+  Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 6982)
+Completed 200 OK in 28ms (Views: 24.9ms | ActiveRecord: 1.3ms | Allocations: 7777)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:29:06 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 6.9ms | Allocations: 2486)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 20.0ms | Allocations: 6391)
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 6980)
+Completed 200 OK in 26ms (Views: 22.7ms | ActiveRecord: 1.1ms | Allocations: 7746)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:29:07 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.6ms | Allocations: 2507)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.4ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 13.3ms | Allocations: 6410)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 6999)
+Completed 200 OK in 17ms (Views: 14.0ms | ActiveRecord: 1.2ms | Allocations: 7764)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:29:07 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.4ms | Allocations: 2480)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 13.8ms | Allocations: 6385)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 6974)
+Completed 200 OK in 17ms (Views: 14.1ms | ActiveRecord: 1.2ms | Allocations: 7739)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:29:08 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.8ms | Allocations: 2492)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 13.7ms | Allocations: 6397)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 6986)
+Completed 200 OK in 19ms (Views: 15.7ms | ActiveRecord: 0.9ms | Allocations: 7751)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:29:08 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.7ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 6.5ms | Allocations: 2504)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 18.2ms | Allocations: 6404)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 6993)
+Completed 200 OK in 25ms (Views: 21.6ms | ActiveRecord: 1.3ms | Allocations: 7758)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:29:56 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 9.1ms | Allocations: 3313)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 20.4ms | Allocations: 8160)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 8978)
+Completed 200 OK in 27ms (Views: 23.1ms | ActiveRecord: 1.2ms | Allocations: 10392)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:29:56 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.6ms | Allocations: 2492)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.4ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 13.7ms | Allocations: 6392)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 6981)
+Completed 200 OK in 17ms (Views: 14.5ms | ActiveRecord: 1.0ms | Allocations: 7775)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:29:56 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.7ms | Allocations: 2483)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.2ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 15.1ms | Allocations: 6383)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 6972)
+Completed 200 OK in 20ms (Views: 17.4ms | ActiveRecord: 0.8ms | Allocations: 7737)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:29:57 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.3ms | Allocations: 2504)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.7ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 17.0ms | Allocations: 6404)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 6993)
+Completed 200 OK in 22ms (Views: 18.7ms | ActiveRecord: 1.4ms | Allocations: 7758)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:01 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 8.4ms | Allocations: 3329)
+  [1m[36mParada Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.4ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 24.2ms | Allocations: 8178)
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 8996)
+Completed 200 OK in 37ms (Views: 28.3ms | ActiveRecord: 1.4ms | Allocations: 10411)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:01 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.5ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 6.4ms | Allocations: 3332)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 22.6ms | Allocations: 8179)
+  Rendered layout layouts/application.html.erb (Duration: 25.8ms | Allocations: 8997)
+Completed 200 OK in 32ms (Views: 27.4ms | ActiveRecord: 1.3ms | Allocations: 10441)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:01 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.0ms | Allocations: 2498)
+  [1m[36mParada Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.6ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 16.6ms | Allocations: 6403)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 6992)
+Completed 200 OK in 22ms (Views: 18.4ms | ActiveRecord: 1.6ms | Allocations: 7786)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:01 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 6.2ms | Allocations: 2498)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 19.5ms | Allocations: 6401)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 6990)
+Completed 200 OK in 26ms (Views: 21.8ms | ActiveRecord: 1.3ms | Allocations: 7755)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:06 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.5ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.2ms | Allocations: 3326)
+  [1m[36mParada Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.6ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 18.0ms | Allocations: 8174)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 8992)
+Completed 200 OK in 25ms (Views: 19.9ms | ActiveRecord: 1.8ms | Allocations: 10403)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:06 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.5ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 8.8ms | Allocations: 3334)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.4ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 19.6ms | Allocations: 8179)
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 8997)
+Completed 200 OK in 27ms (Views: 22.4ms | ActiveRecord: 1.3ms | Allocations: 10445)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:07 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.5ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.6ms | Allocations: 2486)
+  [1m[36mParada Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 18.7ms | Allocations: 6386)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 6975)
+Completed 200 OK in 24ms (Views: 19.6ms | ActiveRecord: 1.6ms | Allocations: 7769)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:07 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.6ms | Allocations: 2495)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 12.4ms | Allocations: 6395)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 6984)
+Completed 200 OK in 18ms (Views: 14.9ms | ActiveRecord: 0.9ms | Allocations: 7749)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:07 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.3ms | Allocations: 2471)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 16.2ms | Allocations: 6371)
+  Rendered layout layouts/application.html.erb (Duration: 23.5ms | Allocations: 6960)
+Completed 200 OK in 27ms (Views: 23.7ms | ActiveRecord: 1.1ms | Allocations: 7726)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:08 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.6ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.2ms | Allocations: 2493)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 16.8ms | Allocations: 6398)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 6987)
+Completed 200 OK in 23ms (Views: 18.6ms | ActiveRecord: 1.4ms | Allocations: 7753)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:09 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.8ms | Allocations: 2487)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 14.7ms | Allocations: 6390)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 6979)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.9ms | Allocations: 7744)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:09 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.6ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.4ms | Allocations: 2498)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 17.2ms | Allocations: 6402)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 6991)
+Completed 200 OK in 22ms (Views: 18.0ms | ActiveRecord: 1.4ms | Allocations: 7757)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:10 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 7.1ms | Allocations: 2477)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 22.2ms | Allocations: 6378)
+  Rendered layout layouts/application.html.erb (Duration: 24.4ms | Allocations: 6967)
+Completed 200 OK in 27ms (Views: 24.1ms | ActiveRecord: 1.4ms | Allocations: 7732)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:10 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.7ms | Allocations: 2471)
+  [1m[36mParada Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.6ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 15.8ms | Allocations: 6374)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 6963)
+Completed 200 OK in 20ms (Views: 16.2ms | ActiveRecord: 1.6ms | Allocations: 7728)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:36 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.3ms | Allocations: 3322)
+  [1m[36mParada Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.8ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 19.4ms | Allocations: 8171)
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 8990)
+Completed 200 OK in 31ms (Views: 24.8ms | ActiveRecord: 1.8ms | Allocations: 10404)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:36 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.7ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 7.2ms | Allocations: 2483)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.8ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 24.3ms | Allocations: 6383)
+  Rendered layout layouts/application.html.erb (Duration: 26.7ms | Allocations: 6972)
+Completed 200 OK in 32ms (Views: 26.6ms | ActiveRecord: 1.9ms | Allocations: 7766)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:36 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.2ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.4ms | Allocations: 2486)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.4ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 14.4ms | Allocations: 6386)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 6975)
+Completed 200 OK in 18ms (Views: 15.2ms | ActiveRecord: 1.1ms | Allocations: 7740)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:36 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.9ms | Allocations: 2471)
+  [1m[36mParada Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.4ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 16.5ms | Allocations: 6371)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 6960)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 1.4ms | Allocations: 7725)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:37 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.4ms | Allocations: 2499)
+  [1m[36mParada Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.7ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 15.9ms | Allocations: 6404)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 6993)
+Completed 200 OK in 28ms (Views: 17.3ms | ActiveRecord: 1.8ms | Allocations: 7759)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:39 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.2ms | Allocations: 3311)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 15.2ms | Allocations: 8160)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 8978)
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.9ms | Allocations: 10393)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:40 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.1ms | Allocations: 2504)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.6ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 16.5ms | Allocations: 6409)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 6998)
+Completed 200 OK in 20ms (Views: 17.2ms | ActiveRecord: 1.4ms | Allocations: 7793)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:44 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.3ms | Allocations: 2489)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 13.5ms | Allocations: 6390)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 6979)
+Completed 200 OK in 16ms (Views: 13.8ms | ActiveRecord: 1.1ms | Allocations: 7744)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:44 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.9ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.9ms | Allocations: 2477)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 13.4ms | Allocations: 6380)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 6969)
+Completed 200 OK in 21ms (Views: 15.7ms | ActiveRecord: 1.6ms | Allocations: 7734)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:45 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.7ms | Allocations: 2471)
+  [1m[36mParada Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 18.5ms | Allocations: 6373)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 6962)
+Completed 200 OK in 23ms (Views: 19.3ms | ActiveRecord: 1.4ms | Allocations: 7727)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:30:45 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.6ms | Allocations: 2513)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 16.4ms | Allocations: 6416)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 7005)
+Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 1.3ms | Allocations: 7770)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:32:30 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 6.0ms | Allocations: 2492)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 16.4ms | Allocations: 6392)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 6981)
+Completed 200 OK in 21ms (Views: 18.3ms | ActiveRecord: 0.9ms | Allocations: 7746)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:32:30 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.0ms | Allocations: 2480)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.4ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:23
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 17.8ms | Allocations: 6380)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 6969)
+Completed 200 OK in 23ms (Views: 19.7ms | ActiveRecord: 1.1ms | Allocations: 7734)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:33:12 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 10.8ms | Allocations: 3323)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.6ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:16
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 28.0ms | Allocations: 8172)
+  Rendered layout layouts/application.html.erb (Duration: 30.1ms | Allocations: 8991)
+Completed 200 OK in 46ms (Views: 31.6ms | ActiveRecord: 1.3ms | Allocations: 10406)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:33:13 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.8ms | Allocations: 2493)
+  [1m[36mParada Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.4ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:16
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 21.6ms | Allocations: 6398)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 6987)
+Completed 200 OK in 28ms (Views: 23.1ms | ActiveRecord: 1.5ms | Allocations: 7782)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:33:13 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.8ms | Allocations: 2489)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.6ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:16
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 18.4ms | Allocations: 6394)
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | Allocations: 6983)
+Completed 200 OK in 24ms (Views: 20.6ms | ActiveRecord: 1.4ms | Allocations: 7749)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:33:13 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.5ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.5ms | Allocations: 2483)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:16
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 17.0ms | Allocations: 6384)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 6973)
+Completed 200 OK in 22ms (Views: 18.5ms | ActiveRecord: 1.1ms | Allocations: 7738)
+
+
+Started GET "/campus" for ::1 at 2023-08-18 23:38:05 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (16.7ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:9
+  Rendered campus/index.html.erb within layouts/application (Duration: 54.4ms | Allocations: 8839)
+  Rendered layout layouts/application.html.erb (Duration: 55.9ms | Allocations: 9473)
+Completed 200 OK in 60ms (Views: 39.7ms | ActiveRecord: 18.0ms | Allocations: 10773)
+
+
+Started GET "/campus/27" for ::1 at 2023-08-18 23:38:07 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 27 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 18.8ms | Allocations: 398)
+  Rendered campus/show.html.erb within layouts/application (Duration: 66.6ms | Allocations: 2624)
+  Rendered layout layouts/application.html.erb (Duration: 67.5ms | Allocations: 3235)
+Completed 200 OK in 71ms (Views: 68.1ms | ActiveRecord: 0.3ms | Allocations: 4798)
+
+
+Started GET "/campus" for ::1 at 2023-08-18 23:38:09 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.2ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:9
+  Rendered campus/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 3053)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 3643)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.2ms | Allocations: 3952)
+
+
+Started GET "/campus" for ::1 at 2023-08-18 23:38:49 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:9
+  Rendered campus/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 2871)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3460)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.3ms | Allocations: 3731)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:42:30 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 10.2ms | Allocations: 2559)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:16
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 19.5ms | Allocations: 6542)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 7131)
+Completed 200 OK in 23ms (Views: 20.5ms | ActiveRecord: 1.0ms | Allocations: 7919)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:42:30 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.3ms | Allocations: 2461)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:16
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 13.7ms | Allocations: 6366)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 6955)
+Completed 200 OK in 18ms (Views: 14.8ms | ActiveRecord: 1.0ms | Allocations: 7721)
+
+
+Started GET "/caronas/11/edit" for ::1 at 2023-08-18 23:42:30 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 7.9ms | Allocations: 2480)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.4ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:16
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 22.9ms | Allocations: 6383)
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 6972)
+Completed 200 OK in 28ms (Views: 24.2ms | ActiveRecord: 1.1ms | Allocations: 7737)
+
+
+Started GET "/campus/14/edit" for 127.0.0.1 at 2023-08-21 13:21:55 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (37.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by CampusController#edit as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 14 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+Completed 404 Not Found in 72ms (ActiveRecord: 25.7ms | Allocations: 5830)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Campu with 'id'=14):
+  
+app/controllers/campus_controller.rb:63:in `set_campu'
+Started GET "/" for 127.0.0.1 at 2023-08-21 13:22:10 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 285)
+  Rendered layout layouts/application.html.erb (Duration: 32.6ms | Allocations: 3031)
+Completed 200 OK in 39ms (Views: 35.9ms | ActiveRecord: 0.0ms | Allocations: 4218)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-21 13:22:11 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:9
+  Rendered campus/index.html.erb within layouts/application (Duration: 126.1ms | Allocations: 35364)
+  Rendered layout layouts/application.html.erb (Duration: 127.7ms | Allocations: 36022)
+Completed 200 OK in 131ms (Views: 130.2ms | ActiveRecord: 0.3ms | Allocations: 36793)
+
+
+Started GET "/campus/new" for 127.0.0.1 at 2023-08-21 13:22:14 -0300
+Processing by CampusController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/new.html.erb within layouts/application
+  Rendered campus/_form.html.erb (Duration: 116.3ms | Allocations: 4536)
+  Rendered campus/new.html.erb within layouts/application (Duration: 141.7ms | Allocations: 5921)
+  Rendered layout layouts/application.html.erb (Duration: 143.3ms | Allocations: 6536)
+Completed 200 OK in 146ms (Views: 144.2ms | ActiveRecord: 0.0ms | Allocations: 6987)
+
+
+Started POST "/campus" for 127.0.0.1 at 2023-08-21 13:22:16 -0300
+Processing by CampusController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "campu"=>{"description"=>"", "adress"=>"", "number"=>"", "neighbourhood"=>"", "city"=>"", "cep"=>"", "deactivationDate"=>""}, "commit"=>"Create Campu"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mCampu Create (0.3ms)[0m  [1m[32mINSERT INTO `campus` (`description`, `adress`, `number`, `neighbourhood`, `city`, `cep`, `deactivationDate`, `created_at`, `updated_at`) VALUES ('', '', NULL, '', '', NULL, NULL, '2023-08-21 16:22:16.829107', '2023-08-21 16:22:16.829107')[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (20.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:27:in `block in create'
+Redirected to http://localhost:3000/campus/30
+Completed 302 Found in 34ms (ActiveRecord: 20.9ms | Allocations: 3907)
+
+
+Started GET "/campus/30" for 127.0.0.1 at 2023-08-21 13:22:16 -0300
+Processing by CampusController#show as TURBO_STREAM
+  Parameters: {"id"=>"30"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 30 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 26.7ms | Allocations: 390)
+  Rendered campus/show.html.erb within layouts/application (Duration: 46.2ms | Allocations: 2815)
+  Rendered layout layouts/application.html.erb (Duration: 47.0ms | Allocations: 3427)
+Completed 200 OK in 50ms (Views: 47.6ms | ActiveRecord: 0.3ms | Allocations: 4412)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-21 13:22:19 -0300
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:9
+  Rendered campus/index.html.erb within layouts/application (Duration: 13.5ms | Allocations: 3437)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 4028)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.3ms | Allocations: 4342)
+
+
+Started GET "/campus/30" for 127.0.0.1 at 2023-08-21 13:22:22 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 30 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  Rendering layout layouts/application.html.erb
+  Rendering campus/show.html.erb within layouts/application
+  Rendered campus/_campu.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered campus/show.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1628)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 2217)
+Completed 200 OK in 13ms (Views: 9.3ms | ActiveRecord: 0.4ms | Allocations: 3003)
+
+
+Started DELETE "/campus/30" for 127.0.0.1 at 2023-08-21 13:22:30 -0300
+Processing by CampusController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"30"}
+  [1m[36mCampu Load (0.4ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 30 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mCampu Destroy (16.5ms)[0m  [1m[31mDELETE FROM `campus` WHERE `campus`.`id` = 30[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+  [1m[36mTRANSACTION (27.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/campus_controller.rb:52:in `destroy'
+Redirected to http://localhost:3000/campus
+Completed 302 Found in 53ms (ActiveRecord: 44.6ms | Allocations: 2678)
+
+
+Started GET "/campus" for 127.0.0.1 at 2023-08-21 13:22:30 -0300
+Processing by CampusController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:9
+  Rendered campus/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 2891)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 3480)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.3ms | Allocations: 3756)
+
+
+Started GET "/campus/30" for 127.0.0.1 at 2023-08-21 13:23:44 -0300
+Processing by CampusController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mCampu Load (0.3ms)[0m  [1m[34mSELECT `campus`.* FROM `campus` WHERE `campus`.`id` = 30 LIMIT 1[0m
+  ↳ app/controllers/campus_controller.rb:63:in `set_campu'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.3ms | Allocations: 952)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Campu with 'id'=30):
+  
+app/controllers/campus_controller.rb:63:in `set_campu'
+Started GET "/" for 127.0.0.1 at 2023-08-21 13:23:48 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 286)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 1496)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 2366)
+
+
+Started GET "/" for 127.0.0.1 at 2023-08-21 13:24:16 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 285)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 1495)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 2423)
+
+
+Started GET "/" for 127.0.0.1 at 2023-08-21 13:24:23 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 285)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1489)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 2417)
+
+
+Started GET "/" for 127.0.0.1 at 2023-08-21 13:24:44 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 285)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 1477)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 2405)
+
+
+Started GET "/" for 127.0.0.1 at 2023-08-21 13:24:46 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 285)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 1486)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 2414)
+
+
+Started GET "/caronas" for 127.0.0.1 at 2023-08-21 13:34:08 -0300
+Processing by CaronasController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/index.html.erb within layouts/application
+  [1m[36mCarona Load (18.1ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas`[0m
+  ↳ app/views/caronas/index.html.erb:9
+  Rendered caronas/index.html.erb within layouts/application (Duration: 64.8ms | Allocations: 9766)
+  Rendered layout layouts/application.html.erb (Duration: 72.3ms | Allocations: 12053)
+Completed 200 OK in 96ms (Views: 53.9ms | ActiveRecord: 19.9ms | Allocations: 14547)
+
+
+Started GET "/caronas/new" for 127.0.0.1 at 2023-08-21 13:34:31 -0300
+Processing by CaronasController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/new.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 46.6ms | Allocations: 3798)
+  Rendered caronas/new.html.erb within layouts/application (Duration: 95.8ms | Allocations: 5146)
+  Rendered layout layouts/application.html.erb (Duration: 96.5ms | Allocations: 5759)
+Completed 200 OK in 97ms (Views: 96.9ms | ActiveRecord: 0.0ms | Allocations: 6148)
+
+
+Started POST "/caronas" for 127.0.0.1 at 2023-08-21 13:35:01 -0300
+Processing by CaronasController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "carona"=>{"motorista"=>"Pedro Ribeiro", "data"=>"2023-08-21", "hora"=>"16:33", "numero_de_passageiros"=>"8", "inicio"=>"Praia Vermelha", "fim"=>"Gragoatá", "custo"=>"10", "observacao"=>""}, "commit"=>"Concluir"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/caronas_controller.rb:18:in `create'
+  [1m[36mCarona Create (0.6ms)[0m  [1m[32mINSERT INTO `caronas` (`motorista`, `inicio`, `fim`, `data`, `hora`, `numero_de_passageiros`, `custo`, `observacao`, `created_at`, `updated_at`) VALUES ('Pedro Ribeiro', 'Praia Vermelha', 'Gragoatá', '2023-08-21', '16:33:00', 8, 10, '', '2023-08-21 16:35:01.266069', '2023-08-21 16:35:01.266069')[0m
+  ↳ app/controllers/caronas_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (104.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/caronas_controller.rb:18:in `create'
+Redirected to http://localhost:3000/caronas/12
+Completed 302 Found in 122ms (ActiveRecord: 105.7ms | Allocations: 3096)
+
+
+Started GET "/caronas/12" for 127.0.0.1 at 2023-08-21 13:35:01 -0300
+Processing by CaronasController#show as TURBO_STREAM
+  Parameters: {"id"=>"12"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/show.html.erb within layouts/application
+  Rendered caronas/show.html.erb within layouts/application (Duration: 31.8ms | Allocations: 2201)
+  Rendered layout layouts/application.html.erb (Duration: 32.6ms | Allocations: 2807)
+Completed 200 OK in 395ms (Views: 33.3ms | ActiveRecord: 0.3ms | Allocations: 11397)
+
+
+Started GET "/caronas/12/edit" for 127.0.0.1 at 2023-08-21 13:35:04 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 5.8ms | Allocations: 2604)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 12 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 65.0ms | Allocations: 9291)
+  Rendered layout layouts/application.html.erb (Duration: 66.0ms | Allocations: 9916)
+Completed 200 OK in 68ms (Views: 42.4ms | ActiveRecord: 24.3ms | Allocations: 10819)
+
+
+Started POST "/caronas/12/paradas" for 127.0.0.1 at 2023-08-21 13:35:45 -0300
+Processing by ParadasController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "parada"=>{"local"=>"Valonguinho"}, "commit"=>"Adicionar Parada", "carona_id"=>"12"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/paradas_controller.rb:30:in `set_carona'
+  [1m[36mCACHE Carona Load (0.1ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/paradas_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/paradas_controller.rb:11:in `create'
+  [1m[36mParada Create (0.3ms)[0m  [1m[32mINSERT INTO `paradas` (`local`, `carona_id`, `created_at`, `updated_at`) VALUES ('Valonguinho', 12, '2023-08-21 16:35:45.299331', '2023-08-21 16:35:45.299331')[0m
+  ↳ app/controllers/paradas_controller.rb:11:in `create'
+  [1m[36mTRANSACTION (63.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/paradas_controller.rb:11:in `create'
+Redirected to http://localhost:3000/caronas/12/edit
+Completed 302 Found in 112ms (ActiveRecord: 64.3ms | Allocations: 5030)
+
+
+Started GET "/caronas/12/edit" for 127.0.0.1 at 2023-08-21 13:35:45 -0300
+Processing by CaronasController#edit as TURBO_STREAM
+  Parameters: {"id"=>"12"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 3.2ms | Allocations: 2672)
+  [1m[36mParada Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 12 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 12[0m
+  ↳ app/views/caronas/edit.html.erb:16
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 9.9ms | Allocations: 7109)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 7707)
+Completed 200 OK in 15ms (Views: 10.9ms | ActiveRecord: 1.0ms | Allocations: 8548)
+
+
+Started POST "/caronas/12/paradas" for 127.0.0.1 at 2023-08-21 13:35:50 -0300
+Processing by ParadasController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "parada"=>{"local"=>"Campus de Artes"}, "commit"=>"Adicionar Parada", "carona_id"=>"12"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/paradas_controller.rb:30:in `set_carona'
+  [1m[36mCACHE Carona Load (0.0ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/paradas_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/paradas_controller.rb:11:in `create'
+  [1m[36mParada Create (0.7ms)[0m  [1m[32mINSERT INTO `paradas` (`local`, `carona_id`, `created_at`, `updated_at`) VALUES ('Campus de Artes', 12, '2023-08-21 16:35:50.028909', '2023-08-21 16:35:50.028909')[0m
+  ↳ app/controllers/paradas_controller.rb:11:in `create'
+  [1m[36mTRANSACTION (108.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/paradas_controller.rb:11:in `create'
+Redirected to http://localhost:3000/caronas/12/edit
+Completed 302 Found in 126ms (ActiveRecord: 110.2ms | Allocations: 3527)
+
+
+Started GET "/caronas/12/edit" for 127.0.0.1 at 2023-08-21 13:35:50 -0300
+Processing by CaronasController#edit as TURBO_STREAM
+  Parameters: {"id"=>"12"}
+  [1m[36mCarona Load (0.5ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 6.9ms | Allocations: 2535)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 12 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.5ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 12[0m
+  ↳ app/views/caronas/edit.html.erb:16
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 19.5ms | Allocations: 6129)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 6718)
+Completed 200 OK in 26ms (Views: 21.5ms | ActiveRecord: 1.5ms | Allocations: 7488)
+
+
+Started DELETE "/caronas/12/paradas/10" for 127.0.0.1 at 2023-08-21 13:35:51 -0300
+Processing by ParadasController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "carona_id"=>"12", "id"=>"10"}
+  [1m[36mCarona Load (0.2ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/paradas_controller.rb:30:in `set_carona'
+  [1m[36mParada Load (0.4ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 12 AND `paradas`.`id` = 10 LIMIT 1[0m
+  ↳ app/controllers/paradas_controller.rb:19:in `destroy'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/paradas_controller.rb:21:in `destroy'
+  [1m[36mParada Destroy (0.3ms)[0m  [1m[31mDELETE FROM `paradas` WHERE `paradas`.`id` = 10[0m
+  ↳ app/controllers/paradas_controller.rb:21:in `destroy'
+  [1m[36mTRANSACTION (25.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/paradas_controller.rb:21:in `destroy'
+Redirected to http://localhost:3000/caronas/12
+Completed 302 Found in 35ms (ActiveRecord: 26.7ms | Allocations: 3341)
+
+
+Started GET "/caronas/12" for 127.0.0.1 at 2023-08-21 13:35:51 -0300
+Processing by CaronasController#show as TURBO_STREAM
+  Parameters: {"id"=>"12"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/show.html.erb within layouts/application
+  Rendered caronas/show.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1576)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2165)
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.3ms | Allocations: 2964)
+
+
+Started GET "/caronas/12/edit" for 127.0.0.1 at 2023-08-21 13:35:54 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mCarona Load (0.2ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.1ms | Allocations: 2517)
+  [1m[36mParada Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 12 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.3ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 12[0m
+  ↳ app/views/caronas/edit.html.erb:16
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 14.9ms | Allocations: 5804)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 6393)
+Completed 200 OK in 18ms (Views: 15.9ms | ActiveRecord: 1.1ms | Allocations: 7160)
+
+
+Started GET "/caronas" for 127.0.0.1 at 2023-08-21 13:35:56 -0300
+Processing by CaronasController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/index.html.erb within layouts/application
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas`[0m
+  ↳ app/views/caronas/index.html.erb:9
+  Rendered caronas/index.html.erb within layouts/application (Duration: 8.4ms | Allocations: 3314)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 3903)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.3ms | Allocations: 4177)
+
+
+Started GET "/caronas/11/edit" for 127.0.0.1 at 2023-08-21 13:36:23 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 4.0ms | Allocations: 2499)
+  [1m[36mParada Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 11 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  [1m[36mParada Load (0.4ms)[0m  [1m[34mSELECT `paradas`.* FROM `paradas` WHERE `paradas`.`carona_id` = 11[0m
+  ↳ app/views/caronas/edit.html.erb:16
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 12.5ms | Allocations: 6399)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 6988)
+Completed 200 OK in 16ms (Views: 13.5ms | ActiveRecord: 1.0ms | Allocations: 7755)
+
+
+Started PATCH "/caronas/11" for 127.0.0.1 at 2023-08-21 13:36:27 -0300
+Processing by CaronasController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "carona"=>{"motorista"=>"", "data"=>"2023-08-21", "hora"=>"13:36", "numero_de_passageiros"=>"", "inicio"=>"", "fim"=>"", "custo"=>"", "observacao"=>""}, "commit"=>"Concluir", "id"=>"11"}
+  [1m[36mCarona Load (0.4ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/caronas_controller.rb:29:in `update'
+  [1m[36mCarona Update (0.5ms)[0m  [1m[33mUPDATE `caronas` SET `caronas`.`data` = '2023-08-21', `caronas`.`hora` = '13:36:00', `caronas`.`updated_at` = '2023-08-21 16:36:27.513732' WHERE `caronas`.`id` = 11[0m
+  ↳ app/controllers/caronas_controller.rb:29:in `update'
+  [1m[36mTRANSACTION (16.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/caronas_controller.rb:29:in `update'
+Redirected to http://localhost:3000/caronas/11
+Completed 302 Found in 30ms (ActiveRecord: 17.4ms | Allocations: 3295)
+
+
+Started GET "/caronas/11" for 127.0.0.1 at 2023-08-21 13:36:27 -0300
+Processing by CaronasController#show as TURBO_STREAM
+  Parameters: {"id"=>"11"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/show.html.erb within layouts/application
+  Rendered caronas/show.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1574)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2163)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.3ms | Allocations: 2962)
+
+
+Started GET "/caronas" for 127.0.0.1 at 2023-08-21 13:36:30 -0300
+Processing by CaronasController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/index.html.erb within layouts/application
+  [1m[36mCarona Load (0.5ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas`[0m
+  ↳ app/views/caronas/index.html.erb:9
+  Rendered caronas/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 3353)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 3942)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.5ms | Allocations: 4216)
+
+
+Started GET "/caronas" for 127.0.0.1 at 2023-08-21 13:39:30 -0300
+Processing by CaronasController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/index.html.erb within layouts/application
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas`[0m
+  ↳ app/views/caronas/index.html.erb:9
+  Rendered caronas/index.html.erb within layouts/application (Duration: 39.2ms | Allocations: 6847)
+  Rendered layout layouts/application.html.erb (Duration: 41.6ms | Allocations: 8949)
+Completed 200 OK in 46ms (Views: 40.8ms | ActiveRecord: 2.0ms | Allocations: 10763)
+
+
+Started GET "/caronas" for 127.0.0.1 at 2023-08-21 13:39:32 -0300
+Processing by CaronasController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/index.html.erb within layouts/application
+  [1m[36mCarona Load (0.2ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas`[0m
+  ↳ app/views/caronas/index.html.erb:9
+  Rendered caronas/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 3335)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 3924)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.2ms | Allocations: 4216)
+
+
+Started GET "/campus" for ::1 at 2023-08-22 19:14:27 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (37.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by CampusController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering campus/index.html.erb within layouts/application
+  [1m[36mCampu Load (25.9ms)[0m  [1m[34mSELECT `campus`.* FROM `campus`[0m
+  ↳ app/views/campus/index.html.erb:9
+  Rendered campus/index.html.erb within layouts/application (Duration: 1328.2ms | Allocations: 64955)
+  Rendered layout layouts/application.html.erb (Duration: 1331.4ms | Allocations: 67372)
+Completed 200 OK in 1430ms (Views: 1316.4ms | ActiveRecord: 27.1ms | Allocations: 72461)
+
+
+Started GET "/caronas" for 127.0.0.1 at 2023-08-25 19:28:22 -0300
+Started GET "/caronas/3" for 127.0.0.1 at 2023-08-25 19:28:22 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (37.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by CaronasController#index as HTML
+Processing by CaronasController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCarona Load (0.9ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/index.html.erb within layouts/application
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/show.html.erb within layouts/application
+  Rendered caronas/show.html.erb within layouts/application (Duration: 84.8ms | Allocations: 43519)
+  [1m[36mCarona Load (4.6ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas`[0m
+  ↳ app/views/caronas/index.html.erb:9
+  Rendered caronas/index.html.erb within layouts/application (Duration: 200.4ms | Allocations: 55404)
+  Rendered layout layouts/application.html.erb (Duration: 217.2ms | Allocations: 58963)
+  Rendered layout layouts/application.html.erb (Duration: 109.1ms | Allocations: 51544)
+Completed 200 OK in 452ms (Views: 244.3ms | ActiveRecord: 4.6ms | Allocations: 73451)
+
+
+Completed 200 OK in 420ms (Views: 110.8ms | ActiveRecord: 41.9ms | Allocations: 73260)
+
+
+Started GET "/caronas/5" for 127.0.0.1 at 2023-08-25 19:28:26 -0300
+Processing by CaronasController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.2ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/show.html.erb within layouts/application
+  Rendered caronas/show.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1668)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2268)
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 0.2ms | Allocations: 3199)
+
+
+Started GET "/caronas/5/edit" for 127.0.0.1 at 2023-08-25 19:28:28 -0300
+Processing by CaronasController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas` WHERE `caronas`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/caronas_controller.rb:44:in `set_carona'
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/edit.html.erb within layouts/application
+  Rendered caronas/_form.html.erb (Duration: 91.1ms | Allocations: 4974)
+  [1m[36mParada Exists? (12.2ms)[0m  [1m[34mSELECT 1 AS one FROM `paradas` WHERE `paradas`.`carona_id` = 5 LIMIT 1[0m
+  ↳ app/views/caronas/edit.html.erb:14
+  Rendered caronas/edit.html.erb within layouts/application (Duration: 203.8ms | Allocations: 11702)
+  Rendered layout layouts/application.html.erb (Duration: 206.0ms | Allocations: 12328)
+Completed 200 OK in 209ms (Views: 170.3ms | ActiveRecord: 36.8ms | Allocations: 13205)
+
+
+Started GET "/caronas" for 127.0.0.1 at 2023-08-25 19:28:31 -0300
+Processing by CaronasController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/index.html.erb within layouts/application
+  [1m[36mCarona Load (0.5ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas`[0m
+  ↳ app/views/caronas/index.html.erb:9
+  Rendered caronas/index.html.erb within layouts/application (Duration: 11.5ms | Allocations: 3433)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 4023)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.5ms | Allocations: 4339)
+
+
+Started GET "/caronas" for 127.0.0.1 at 2023-08-25 19:29:12 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by CaronasController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering caronas/index.html.erb within layouts/application
+  [1m[36mCarona Load (0.3ms)[0m  [1m[34mSELECT `caronas`.* FROM `caronas`[0m
+  ↳ app/views/caronas/index.html.erb:9
+  Rendered caronas/index.html.erb within layouts/application (Duration: 250.5ms | Allocations: 59623)
+  Rendered layout layouts/application.html.erb (Duration: 256.0ms | Allocations: 62042)
+Completed 200 OK in 337ms (Views: 257.5ms | ActiveRecord: 2.0ms | Allocations: 68149)
+
+
