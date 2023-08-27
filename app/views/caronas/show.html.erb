@@ -18,7 +18,22 @@
                     <p class="card-text"><strong>Custo:</strong> <%= @carona.custo.nil? ? 'Gratuita' : "#{@carona.custo}" %></p>
                     <p class="card-text"><strong>Número de passageiros:</strong> <%= @carona.numero_de_passageiros.nil? ? 'Número de passageiros não definido' : "#{@carona.numero_de_passageiros}" %></p>
                     <p class="card-text"><strong>Observação:</strong> <%= @carona.observacao == "" ? 'A carona não possui observações' : "#{@carona.observacao}" %></p>
-
+                    <div class="d-flex justify-content-center align-items-center center-content">
+                    <div class="d-flex justify-content-center center-content align-items-center flex-column">
+                    <% if @carona.paradas.any? %>
+                        <h2 class="m-4">Paradas</h2>
+                        <div class="paradas">
+                        <% @carona.paradas.each do |parada| %>
+                            <div class="parada form-group p-2 d-flex justify-content-center align-items-center">
+                                <div><%= parada.local %></div>
+                            </div>
+                        <% end %>
+                        </div>
+                        <% else %>
+                            <h3 class="m-4">A carona não tem nenhuma parada.</h3>
+                        <% end %>
+                    </div>
+                </div>
                 </div>
                 <div class="card-footer d-flex justify-content-between mx-auto text-center">
                     <%= link_to 'Editar', edit_carona_path(@carona), class: 'btn btn-primary' %>

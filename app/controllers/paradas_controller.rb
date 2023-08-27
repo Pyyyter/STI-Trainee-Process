@@ -16,7 +16,7 @@ class ParadasController < ApplicationController
   private
 
   def set_carona
-    @carona = Carona.find(params[:carona_id])zz
+    @carona = Carona.find(params[:carona_id])
   end
 
   def parada_params

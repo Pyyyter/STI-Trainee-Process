@@ -1,6 +1,10 @@
 <!-- app/views/caronas/new.html.erb -->
 <%= stylesheet_link_tag "bootstrap.css" %>
-
+<% if notice %>
+        <div class="notice d-flex justify-content-center align-items-center m-5">
+                <%= notice %>
+        </div>
+<% end %>
 <div class="container">
     <h1>Nova Carona</h1>
     <%= render "form", carona:@carona %>

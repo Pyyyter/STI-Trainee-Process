@@ -11,56 +11,58 @@
     </div>
   <% end %>
 
+
+  <% campus = Campus.pluck(:description) %>
+
   <div class="row">
     <div class="col-md-6">
       <div class="form-group p-2">
         <%= form.label :motorista, class: "text-center", style: "display: block" %>
         <%= form.text_field :motorista, class: "form-control" %>
       </div>
-
       <div class="form-group p-2">
         <%= form.label :data, class: "text-center", style: "display: block" %>
         <%= form.date_field :data, class: "form-control", value: Time.now.strftime('%Y-%m-%d') %>
       </div>
-
       <div class="form-group p-2">
         <%= form.label :hora, class: "text-center", style: "display: block" %>
         <%= form.time_field :hora, class: "form-control", value: Time.now.strftime('%H:%M') %>
       </div>
-
       <div class="form-group p-2">
-        <%= form.label :Passageiros, class: "text-center", style: "display: block" %>
+        <%= form.label :numero_de_passageiros, class: "text-center", style: "display: block" %>
         <%= form.text_field :numero_de_passageiros, class: "form-control" %>
       </div>
       
-
     </div>
-
     <div class="col-md-6">
+    
       <div class="form-group p-2">
-        <%= form.label :inicio, class: "text-center", style: "display: block" %>
-        <%= form.text_field :inicio, class: "form-control"%>
-      </div>
-
-      <div class="form-group p-2">
-        <%= form.label :fim, class: "text-center", style: "display: block" %>
-        <%= form.text_field :fim, class: "form-control" %>
-      </div>
-      <div class="form-group p-2">
-        <%= form.label :Valor, class: "text-center", style: "display: block" %>
+        <%= form.label :custo, class: "text-center", style: "display: block" %>
         <%= form.text_field :custo, class: "form-control" %>
       </div>
-
+      <div class="form-group p-2" style="display:block">
+        <%= form.label :inicio, class: "text-center", style: "display: block" %>
+        <%= form.text_field :inicio, class: "form-control" %>
+      </div>
+      
       <div class="form-group p-2">
-        <%= form.label :observacao, class: "text-center" %>
+        <%= form.label :fim, class: "text-center", style: "display: block" %>
+       <%= form.text_field :fim, class: "form-control" %>
+      </div>
+        
+      <div class="form-group p-2">
+        <%= form.label :observacao, class: "text-center", style: "display: block" %>
         <div class="">
           <%= form.text_area :observacao, class: "form-control" %>
         </div>
       </div>
+
     </div>
+
   </div>
 
   <div class="form-group p-2 d-flex justify-content-center m-5">
-    <%= form.submit "Concluir", class: "btn btn-primary" %>
+    <!-- Change the type of the button to "submit" -->
+    <%= form.button "Concluir", type: "submit", class: "btn btn-primary" %>
   </div>
 <% end %>
