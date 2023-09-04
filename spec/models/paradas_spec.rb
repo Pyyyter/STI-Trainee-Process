@@ -9,9 +9,3 @@ RSpec.describe Parada, type: :model do
     expect(parada).to be_valid
   end
 end
-# spec/features/caronas_spec.rb
-require 'rails_helper'
-
-RSpec.describe Carona, "Validação das entradas das Caronas", type: :model do
-  
-end

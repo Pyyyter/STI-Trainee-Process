@@ -12,7 +12,7 @@ FactoryBot.define do
   
     factory :carona do
         motorista { 'Campu Description' }
-        inicio { 'Campu Address' }
+        inicio { 'Gragoatá' }
         fim { 'Gragoata' }
         data { Date.today }
         hora { Time.now }
